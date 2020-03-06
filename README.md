@@ -1,4 +1,7 @@
-# Articles
+# G-Dragon 的个人博客
+
+喜欢的话点 star 或 watch，不要fork!!!
+
 
 ## 目录
  - [正则表达式](./list/正则表达式.md)
