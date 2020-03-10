@@ -13,6 +13,7 @@
  
  
 ## TypeScript
+ - [TypeScript 入门占坑！](https://github.com/PandoraG/Articles/issues/39)
 
 
 
