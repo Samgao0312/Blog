@@ -12,7 +12,7 @@
  - [hashHistory vs browserHistory 的区别！](https://github.com/PandoraG/Articles/issues/38)
  
  
-## TypeScript
+## TypeScript系列
  - [TypeScript 入门占坑！](https://github.com/PandoraG/Articles/issues/39)
 
 
