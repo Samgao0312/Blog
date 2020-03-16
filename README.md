@@ -10,6 +10,7 @@
 ## Vue 系列
  - [管理后台前端工程架构方案](https://github.com/PandoraG/Articles/issues/36)
  - [hashHistory vs browserHistory 的区别！](https://github.com/PandoraG/Articles/issues/38)
+ - [Vue-router 原理剖析](https://github.com/PandoraG/Articles/issues/40)
  
  
 ## TypeScript系列
