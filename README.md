@@ -10,6 +10,7 @@
 ## Css 系列
  
  - [flex: 1 是什么意思？](https://github.com/PandoraG/Articles/issues/41)
+ - [CSS实现footer“吸底”效果](https://github.com/PandoraG/Articles/issues/42)
 
 ## Vue 系列
  - [管理后台前端工程架构方案](https://github.com/PandoraG/Articles/issues/36)
