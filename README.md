@@ -19,7 +19,7 @@
  - [Vue-router 原理剖析](https://github.com/PandoraG/Articles/issues/40)
 
 ## React 系列
-[Mobx + React入门记录～](https://github.com/PandoraG/Articles/issues/48)
+ - [Mobx + React入门记录～](https://github.com/PandoraG/Articles/issues/48)
 
 ## TypeScript系列
  - [TypeScript 入门占坑！](https://github.com/PandoraG/Articles/issues/39)
