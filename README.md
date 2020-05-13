@@ -19,7 +19,7 @@
  - [Vue-router 原理剖析](https://github.com/PandoraG/Articles/issues/40)
 
 ## React 系列
- - [react-router 学习笔记～](https://github.com/PandoraG/Articles/issues/49)
+ - [react-router 学习笔记～](https://github.com/PandoraG/Articles/issues/50)
  - [Mobx + React入门记录～](https://github.com/PandoraG/Articles/issues/48)
  - [react-loadable 深度总结！](https://github.com/PandoraG/Articles/issues/49)
 
