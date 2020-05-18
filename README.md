@@ -22,6 +22,7 @@
  - [react-router 学习笔记～](https://github.com/PandoraG/Articles/issues/50)
  - [Mobx + React入门记录～](https://github.com/PandoraG/Articles/issues/48)
  - [react-loadable 深度总结！](https://github.com/PandoraG/Articles/issues/49)
+ - [详解 PureComponent Vs Component](https://github.com/PandoraG/Articles/issues/51)
 
 ## TypeScript系列
  - [TypeScript 入门占坑！](https://github.com/PandoraG/Articles/issues/39)
