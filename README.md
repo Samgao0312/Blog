@@ -23,6 +23,7 @@
  - [Mobx + React入门记录～](https://github.com/PandoraG/Articles/issues/48)
  - [react-loadable 深度总结！](https://github.com/PandoraG/Articles/issues/49)
  - [详解 PureComponent Vs Component](https://github.com/PandoraG/Articles/issues/51)
+ - [redux 常用中间件](https://github.com/PandoraG/Articles/issues/53)
 
 ## TypeScript系列
  - [TypeScript 入门占坑！](https://github.com/PandoraG/Articles/issues/39)
