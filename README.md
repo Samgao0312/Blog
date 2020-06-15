@@ -29,9 +29,23 @@
  
  
 ## 工程化
- - ### grunt
- - ### gulp
- - ### Webpack
+ - 构建工具
+   -  webpack
+   -  gulp
+   -  rollup
+   -  browserify
+   -  yeoman
+   -  grunt
+ - 规范
+   - [前端代码规范 —— JavaScript篇](https://github.com/PandoraG/Articles/issues/21)
+   - [前端代码规范 —— HTML篇](https://github.com/PandoraG/Articles/issues/20)
+   - [前端代码规范 —— CSS篇](https://github.com/PandoraG/Articles/issues/19)
+   - [前端代码规范](https://github.com/PandoraG/Articles/issues/15)
+ - 开发工具
+   - Vscode
+     - [Vscode 前端开发环境配置](https://github.com/PandoraG/Articles/issues/7)
+     - [使用Eslint，保证代码质量](https://github.com/PandoraG/Articles/issues/9)
+     - [VScode 插件列表](https://github.com/PandoraG/Articles/issues/8)
 
 
 
@@ -64,19 +78,6 @@
    6. [Charles安装使用](./list/Charles安装使用.md)
 
  - ### Flutter
- 
-
-## Vscode 
- 1. [Vscode 前端开发环境配置](https://github.com/PandoraG/Articles/issues/7)
- 2. [使用Eslint，保证代码质量](https://github.com/PandoraG/Articles/issues/9)
- 3. [VScode 插件列表](https://github.com/PandoraG/Articles/issues/8)
- 
- 
-## 代码风格规范
- 1. [前端代码规范 —— JavaScript篇](https://github.com/PandoraG/Articles/issues/21)
- 2. [前端代码规范 —— HTML篇](https://github.com/PandoraG/Articles/issues/20)
- 3. [前端代码规范 —— CSS篇](https://github.com/PandoraG/Articles/issues/19)
- 4. [前端代码规范](https://github.com/PandoraG/Articles/issues/15)
  
  
 ## 友情链接
