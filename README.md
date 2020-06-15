@@ -17,6 +17,7 @@
 ## JavaScript系列
  - [forEach() vs for...in vs for...of 的区别？](https://github.com/PandoraG/Articles/issues/65)
  - [How Javascript Works](https://github.com/Troland/how-javascript-works) ｜ 转载
+ - [The Cost Of JavaScript](https://medium.com/dev-channel/the-cost-of-javascript-84009f51e99e) | 翻译
 
 ## 框架
 
