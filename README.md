@@ -56,6 +56,7 @@
    - [hashHistory vs browserHistory 的区别！](https://github.com/PandoraG/Articles/issues/38)
    - [Vue-router 原理剖析](https://github.com/PandoraG/Articles/issues/40)
    - [如何使用JS构建响应式引擎. 第一部分: 可观察对象](https://github.com/PandoraG/Articles/issues/59)
+   - [vue-property-decorator 使用笔录](https://github.com/PandoraG/Articles/issues/68)
 
  - ### React 系列
    - [react-router 学习笔记～](https://github.com/PandoraG/Articles/issues/50)
