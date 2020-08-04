@@ -27,6 +27,7 @@
 ## TypeScript系列
  - [TypeScript 入门占坑！](https://github.com/PandoraG/Articles/issues/39)
  - [TypeScript思考题](https://github.com/PandoraG/Articles/issues/79)
+ - [TS 声明文件](https://github.com/PandoraG/Articles/issues/80)
  
  
 ## 工程化
