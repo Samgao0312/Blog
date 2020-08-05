@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+    .parent {
+        background-color: #6ff1c7;
+        width: 100%;
+        height: 200px;
+    }
+
+    .parent1 {
+        position: relative;
+    }
+
+    .parent1 .child {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .parent2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+
+<body>
+    <h2>1、使用定位</h2>
+    <section class="parent parent1">
+        <div class="child">使用定位</div>
+    </section>
+    <br>
+    <br>
+    <h2>2、使用css3 的flex</h2>
+    <section class="parent parent2">
+        <div class="child">使用css3 的flex</div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,3414 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>diff算法 · 生活的意义在于学习</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="G-Dragon">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-anchor-navigation-ex-toc/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="理解JSX.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../appsflyer/appsflyer_instruction.html">
+            
+                <a href="../../appsflyer/appsflyer_instruction.html">
+            
+                    
+                    AppsFlyer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../appsflyer/appsflyer_instruction.html">
+            
+                <a href="../../appsflyer/appsflyer_instruction.html">
+            
+                    
+                    AppsFlyer 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../appsflyer/appsflyer_web.html">
+            
+                <a href="../../appsflyer/appsflyer_web.html">
+            
+                    
+                    Web 端集成方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../appsflyer/SRN_explain.html">
+            
+                <a href="../../appsflyer/SRN_explain.html">
+            
+                    
+                    什么是 SRN?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../appsflyer/OneLink.html">
+            
+                <a href="../../appsflyer/OneLink.html">
+            
+                    
+                    OneLink 概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../appsflyer/web_sdk.md">
+            
+                <span>
+            
+                    
+                    Web SDK 集成指导
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../appsflyer/people_based_attribution.html">
+            
+                <a href="../../appsflyer/people_based_attribution.html">
+            
+                    
+                    基于人的归因概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../appsflyer/手动归因中媒体源和广告系列映射.html">
+            
+                <a href="../../appsflyer/手动归因中媒体源和广告系列映射.html">
+            
+                    
+                    手动归因中媒体源和广告系列映射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../appsflyer/人工分析.html">
+            
+                <a href="../../appsflyer/人工分析.html">
+            
+                    
+                    人工分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../../appsflyer/手动归因VS谷歌分析.html">
+            
+                <a href="../../appsflyer/手动归因VS谷歌分析.html">
+            
+                    
+                    手动归因 VS 谷歌分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../../appsflyer/手动归因的原始数据报告.html">
+            
+                <a href="../../appsflyer/手动归因的原始数据报告.html">
+            
+                    
+                    手动归因的原始数据报告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../ga_introduction.html">
+            
+                <a href="../../ga_introduction.html">
+            
+                    
+                    Google Analytics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../ga_introduction.html">
+            
+                <a href="../../ga_introduction.html">
+            
+                    
+                    ga 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../aws_introduction.html">
+            
+                <a href="../../aws_introduction.html">
+            
+                    
+                    AWS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../aws_introduction.html">
+            
+                <a href="../../aws_introduction.html">
+            
+                    
+                    aws 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../aws_invalidation.html">
+            
+                <a href="../../aws_invalidation.html">
+            
+                    
+                    aws 使缓存失效
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../web_awake_app.html">
+            
+                <a href="../../web_awake_app.html">
+            
+                    
+                    Web 唤起 App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    git
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../git/pages/1.git理论基础.html">
+            
+                <a href="../../git/pages/1.git理论基础.html">
+            
+                    
+                    git理论基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../git/pages/2.git查看状态和历史提交记录.html">
+            
+                <a href="../../git/pages/2.git查看状态和历史提交记录.html">
+            
+                    
+                    查看工作状态以及历史提交
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../git/pages/3.回到过去.html">
+            
+                <a href="../../git/pages/3.回到过去.html">
+            
+                    
+                    回到过去
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../git/pages/4.版本对比.html">
+            
+                <a href="../../git/pages/4.版本对比.html">
+            
+                    
+                    版本对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../git/pages/5.删除文件和重命名文件.html">
+            
+                <a href="../../git/pages/5.删除文件和重命名文件.html">
+            
+                    
+                    删除文件和重命名文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../git/pages/6.创建、切换、查看、合并和删除分支.html">
+            
+                <a href="../../git/pages/6.创建、切换、查看、合并和删除分支.html">
+            
+                    
+                    创建、切换、查看、合并以及删除分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../../git/pages/gitbook配置.html">
+            
+                <a href="../../git/pages/gitbook配置.html">
+            
+                    
+                    gitbook 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Html & Css
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../html_css/">
+            
+                <a href="../../html_css/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../html_css/pages/1. html基础.html">
+            
+                <a href="../../html_css/pages/1. html基础.html">
+            
+                    
+                    HTML基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../html_css/pages/2. css基础.html">
+            
+                <a href="../../html_css/pages/2. css基础.html">
+            
+                    
+                    CSS基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../html_css/pages/3. CSS 布局.html">
+            
+                <a href="../../html_css/pages/3. CSS 布局.html">
+            
+                    
+                    CSS布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../html_css/flexbox/flexbox.html">
+            
+                <a href="../../html_css/flexbox/flexbox.html">
+            
+                    
+                    Flexbox 布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../html_css/pages/4. Css效果.html">
+            
+                <a href="../../html_css/pages/4. Css效果.html">
+            
+                    
+                    CSS效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../../html_css/pages/5. Css 动画.html">
+            
+                <a href="../../html_css/pages/5. Css 动画.html">
+            
+                    
+                    CSS动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../../html_css/pages/6. 预处理器.html">
+            
+                <a href="../../html_css/pages/6. 预处理器.html">
+            
+                    
+                    预处理器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="../../html_css/pages/7. Bootstrap.html">
+            
+                <a href="../../html_css/pages/7. Bootstrap.html">
+            
+                    
+                    Bootstrap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.10" data-path="../../html_css/pages/8. CSS 工程化方案.html">
+            
+                <a href="../../html_css/pages/8. CSS 工程化方案.html">
+            
+                    
+                    Css工程化方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.11" data-path="../../html_css/pages/9-1 vue中使用css.html">
+            
+                <a href="../../html_css/pages/9-1 vue中使用css.html">
+            
+                    
+                    Vue中的Css
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12" >
+            
+                <span>
+            
+                    
+                    重点思考
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.12.1" data-path="../../html_css/重点思考/如何减少重写和重绘.html">
+            
+                <a href="../../html_css/重点思考/如何减少重写和重绘.html">
+            
+                    
+                    如何减少重排和重绘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12.2" data-path="../../html_css/重点思考/浏览器兼容性.html">
+            
+                <a href="../../html_css/重点思考/浏览器兼容性.html">
+            
+                    
+                    浏览器兼容性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12.3" data-path="../../html_css/重点思考/flex布局面试题.html">
+            
+                <a href="../../html_css/重点思考/flex布局面试题.html">
+            
+                    
+                    Flex 布局面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12.4" data-path="../../html_css/重点思考/动画.html">
+            
+                <a href="../../html_css/重点思考/动画.html">
+            
+                    
+                    css3动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13" >
+            
+                <span>
+            
+                    
+                    面试题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.13.1" data-path="../../html_css/面试题/html.html">
+            
+                <a href="../../html_css/面试题/html.html">
+            
+                    
+                    html 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13.2" data-path="../../html_css/面试题/css.html">
+            
+                <a href="../../html_css/面试题/css.html">
+            
+                    
+                    css 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    JavaScript
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <span>
+            
+                    
+                    第一部分 JavaScript 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../../js/part1/1.1 课程简介.html">
+            
+                <a href="../../js/part1/1.1 课程简介.html">
+            
+                    
+                    1.1 课程简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="../../js/part1/1.2 JS 基础知识（上）.md">
+            
+                <span>
+            
+                    
+                    1.2 JS 基础知识（上）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="../../js/part1/1.3 JS 基础知识（中）.md">
+            
+                <span>
+            
+                    
+                    1.3 JS 基础知识（中）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.4" data-path="../../js/part1/1.4 JS 基础知识（下）.md">
+            
+                <span>
+            
+                    
+                    1.4 JS 基础知识（下）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.5" data-path="../../js/part1/1.5 JS-Web-API（上）.html">
+            
+                <a href="../../js/part1/1.5 JS-Web-API（上）.html">
+            
+                    
+                    1.5 JS-Web-API（上）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.6" data-path="../../js/part1/1.6 JS-Web-API（下）.html">
+            
+                <a href="../../js/part1/1.6 JS-Web-API（下）.html">
+            
+                    
+                    1.6 JS-Web-API（下）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.7" data-path="../../js/part1/1.7 开发环境.html">
+            
+                <a href="../../js/part1/1.7 开发环境.html">
+            
+                    
+                    1.7 开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.8" data-path="../../js/part1/1.8 运行环境.html">
+            
+                <a href="../../js/part1/1.8 运行环境.html">
+            
+                    
+                    1.8 运行环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.9" data-path="../../js/重点思考/循环与迭代.html">
+            
+                <a href="../../js/重点思考/循环与迭代.html">
+            
+                    
+                    循环与迭代
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.10" data-path="../../js/重点思考/this指向.html">
+            
+                <a href="../../js/重点思考/this指向.html">
+            
+                    
+                    this 指向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.11" data-path="../../js/重点思考/作用域与作用域链.html">
+            
+                <a href="../../js/重点思考/作用域与作用域链.html">
+            
+                    
+                    作用域与作用域链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.12" data-path="../../js/重点思考/闭包.html">
+            
+                <a href="../../js/重点思考/闭包.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.13" data-path="../../js/重点思考/原型与原型链.html">
+            
+                <a href="../../js/重点思考/原型与原型链.html">
+            
+                    
+                    原型与原型链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.14" data-path="../../js/重点思考/Js垃圾回收机制和内存泄漏.html">
+            
+                <a href="../../js/重点思考/Js垃圾回收机制和内存泄漏.html">
+            
+                    
+                    Js 垃圾回收机制和内存泄漏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.15" data-path="../../js/重点思考/Js事件循环.html">
+            
+                <a href="../../js/重点思考/Js事件循环.html">
+            
+                    
+                    Js 事件循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.16" data-path="../../js/重点思考/Promise.html">
+            
+                <a href="../../js/重点思考/Promise.html">
+            
+                    
+                    Promise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.17" data-path="../../js/重点思考/async函数.md">
+            
+                <span>
+            
+                    
+                    async 函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.18" data-path="../../js/重点思考/class与继承.html">
+            
+                <a href="../../js/重点思考/class与继承.html">
+            
+                    
+                    class 与继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.19" data-path="../../js/重点思考/cookie和session.html">
+            
+                <a href="../../js/重点思考/cookie和session.html">
+            
+                    
+                    Cookie 和 Seesion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20" data-path="../../js/重点思考/Cookie、localStorage与sessionStorage.html">
+            
+                <a href="../../js/重点思考/Cookie、localStorage与sessionStorage.html">
+            
+                    
+                    Cookie、localStorage 与 sessionStorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.21" data-path="../../js/重点思考/堆内存和栈内存.html">
+            
+                <a href="../../js/重点思考/堆内存和栈内存.html">
+            
+                    
+                    堆内存和栈内存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.22" data-path="../../js/重点思考/类型转换.html">
+            
+                <a href="../../js/重点思考/类型转换.html">
+            
+                    
+                    Js 类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.23" data-path="../../js/重点思考/面向对象与继承.html">
+            
+                <a href="../../js/重点思考/面向对象与继承.html">
+            
+                    
+                    面向对象与继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.24" data-path="../../js/重点思考/原型继承与类继承的区别.html">
+            
+                <a href="../../js/重点思考/原型继承与类继承的区别.html">
+            
+                    
+                    Js 原型继承与类继承的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.25" data-path="../../js/重点思考/new一个对象的过程.html">
+            
+                <a href="../../js/重点思考/new一个对象的过程.html">
+            
+                    
+                    Js new 一个对象的过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.26" data-path="../../js/重点思考/Js事件模型.html">
+            
+                <a href="../../js/重点思考/Js事件模型.html">
+            
+                    
+                    Js 事件模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.27" data-path="../../js/重点思考/promise与setTimeout.html">
+            
+                <a href="../../js/重点思考/promise与setTimeout.html">
+            
+                    
+                    promise 与 setTimeout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.28" data-path="../../js/重点思考/深入理解CDN.html">
+            
+                <a href="../../js/重点思考/深入理解CDN.html">
+            
+                    
+                    深入理解 CDN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.29" data-path="../../js/重点思考/frontend_storage.html">
+            
+                <a href="../../js/重点思考/frontend_storage.html">
+            
+                    
+                    Web Storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.30" data-path="../../js/重点思考/Object.is与===的不同.html">
+            
+                <a href="../../js/重点思考/Object.is与===的不同.html">
+            
+                    
+                    Object.is() vs ”===“
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.31" data-path="../../js/重点思考/es6_symbol.html">
+            
+                <a href="../../js/重点思考/es6_symbol.html">
+            
+                    
+                    ES6 Symbol
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" >
+            
+                <span>
+            
+                    
+                    第二部分 JavaScript 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="../../js/part2/2.1 课程简介.html">
+            
+                <a href="../../js/part2/2.1 课程简介.html">
+            
+                    
+                    2.1 课程介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="../../js/part2/2.3 原型.html">
+            
+                <a href="../../js/part2/2.3 原型.html">
+            
+                    
+                    2.3 原型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.3" data-path="../../js/part2/2.4 异步.html">
+            
+                <a href="../../js/part2/2.4 异步.html">
+            
+                    
+                    2.4 异步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.4" data-path="../../js/part2/2.5 虚拟 DOM.md">
+            
+                <span>
+            
+                    
+                    2.5 虚拟 DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.5" data-path="../../js/(part2/2.6 MVVM 和 Vue.md">
+            
+                <span>
+            
+                    
+                    2.6 MVVM和Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.6" data-path="../../js/part2/2.7 组件化和 React.md">
+            
+                <span>
+            
+                    
+                    2.7 组件化 和 React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.7" data-path="../../js/part2/2.8 hybrid.html">
+            
+                <a href="../../js/part2/2.8 hybrid.html">
+            
+                    
+                    2.8 hybrid
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.8" data-path="../../js/part2/2.9 事件循环.html">
+            
+                <a href="../../js/part2/2.9 事件循环.html">
+            
+                    
+                    2.9 事件循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.9" data-path="../../js/part2/2.10 总结.html">
+            
+                <a href="../../js/part2/2.10 总结.html">
+            
+                    
+                    2.10 总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" >
+            
+                <span>
+            
+                    
+                    第三部分 正则表达式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.4.1" data-path="../../js/part4/JS正则表达式.html">
+            
+                <a href="../../js/part4/JS正则表达式.html">
+            
+                    
+                    正则表达式语法总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.2" data-path="../../js/面试题/regExp.html">
+            
+                <a href="../../js/面试题/regExp.html">
+            
+                    
+                    正则面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../../js/part3/小程序基础.html">
+            
+                <a href="../../js/part3/小程序基础.html">
+            
+                    
+                    第四部分 微信小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../../js/part5/数据结构与算法.html">
+            
+                <a href="../../js/part5/数据结构与算法.html">
+            
+                    
+                    第五部分 数据结构与算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" >
+            
+                <span>
+            
+                    
+                    ES6 学习
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.7.1" data-path="../../js/es6/变量的结构赋值.html">
+            
+                <a href="../../js/es6/变量的结构赋值.html">
+            
+                    
+                    变量的结构赋值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.2" data-path="../../js/es6/es6语法.html">
+            
+                <a href="../../js/es6/es6语法.html">
+            
+                    
+                    es6 基本语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.3" data-path="../../js/es6/Promise 和 Async function.html">
+            
+                <a href="../../js/es6/Promise 和 Async function.html">
+            
+                    
+                    Promise 和 Async函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.4" data-path="../../js/es6/新增数据类型.html">
+            
+                <a href="../../js/es6/新增数据类型.html">
+            
+                    
+                    Es6 新增数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.5" data-path="../../js/es6/ES6面试题.html">
+            
+                <a href="../../js/es6/ES6面试题.html">
+            
+                    
+                    Es6 面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="../../js/RESTful API/1 简介.html">
+            
+                <a href="../../js/RESTful API/1 简介.html">
+            
+                    
+                    第6部分 RESTful API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" >
+            
+                <span>
+            
+                    
+                    第7部分 面试题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.9.1" data-path="../../js/面试题/js.html">
+            
+                <a href="../../js/面试题/js.html">
+            
+                    
+                    JS 面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.2" data-path="../../js/面试题/js-es5编程题.html">
+            
+                <a href="../../js/面试题/js-es5编程题.html">
+            
+                    
+                    JS es5 编程题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.3" data-path="../../js/面试题/js-es6.html">
+            
+                <a href="../../js/面试题/js-es6.html">
+            
+                    
+                    JS es6 面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.4" data-path="../../js/面试题/regExp.html">
+            
+                <a href="../../js/面试题/regExp.html">
+            
+                    
+                    正则面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.5" data-path="../../js/面试题/浏览器.html">
+            
+                <a href="../../js/面试题/浏览器.html">
+            
+                    
+                    浏览器篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.6" data-path="../../js/面试题/微信小程序.html">
+            
+                <a href="../../js/面试题/微信小程序.html">
+            
+                    
+                    微信小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.7" data-path="../../js/面试题/算法面试题.html">
+            
+                <a href="../../js/面试题/算法面试题.html">
+            
+                    
+                    算法面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../vue/readme.html">
+            
+                <a href="../../vue/readme.html">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../vue/Vue篇/">
+            
+                <a href="../../vue/Vue篇/">
+            
+                    
+                    一、vue 篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="../../vue/Vue篇/1.1.1 class.html">
+            
+                <a href="../../vue/Vue篇/1.1.1 class.html">
+            
+                    
+                    1.1 vue 基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.2" data-path="../../vue/Vue篇/1.1.1 class.html">
+            
+                <a href="../../vue/Vue篇/1.1.1 class.html">
+            
+                    
+                    1.1.1 class
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.3" data-path="../../vue/Vue篇/1.1.2 页面跳转.html">
+            
+                <a href="../../vue/Vue篇/1.1.2 页面跳转.html">
+            
+                    
+                    1.1.2 页面跳转
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.4" >
+            
+                <span>
+            
+                    
+                    1.1.3 Vue自带的filter列表（v1.0 and v2.0）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.5" data-path="../../vue/Vue篇/1.1.3 条件渲染.html">
+            
+                <a href="../../vue/Vue篇/1.1.3 条件渲染.html">
+            
+                    
+                    1.1.3 条件渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.6" data-path="../../vue/Vue篇/1.1.4 vue基础.html">
+            
+                <a href="../../vue/Vue篇/1.1.4 vue基础.html">
+            
+                    
+                    1.1.4 vue基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.7" data-path="../../vue/Vue篇/1.1.5 vue组件.html">
+            
+                <a href="../../vue/Vue篇/1.1.5 vue组件.html">
+            
+                    
+                    1.1.5 vue组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.8" data-path="../../vue/Vue篇/vue基础知识/1 生命周期.html">
+            
+                <a href="../../vue/Vue篇/vue基础知识/1 生命周期.html">
+            
+                    
+                    1.1.6 vue生命周期
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.9" data-path="../../vue/Vue篇/vue基础知识/2 指令.html">
+            
+                <a href="../../vue/Vue篇/vue基础知识/2 指令.html">
+            
+                    
+                    1.1.7 指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10" >
+            
+                <span>
+            
+                    
+                    1.2 vue 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.1" >
+            
+                <span>
+            
+                    
+                    使用样式与字体
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.1.1" >
+            
+                <span>
+            
+                    
+                    1. Vue中使用sass
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.2" >
+            
+                <span>
+            
+                    
+                    2. Vue中使用less
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.3" >
+            
+                <span>
+            
+                    
+                    3. Vue中使用font-awesome
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.4" >
+            
+                <span>
+            
+                    
+                    4. Vue中使用bootstrap
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.5" >
+            
+                <span>
+            
+                    
+                    5. Vue中引入样式
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2" >
+            
+                <span>
+            
+                    
+                    Vue各种情况下组件间通信
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.2.1" data-path="../../vue/Vue篇/vue各种情况的组件通信/1. 关于vue组件间通信问题的回答.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/1. 关于vue组件间通信问题的回答.html">
+            
+                    
+                    1. 关于vue组件间通信问题的回答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.2" data-path="../../vue/Vue篇/vue各种情况的组件通信/2. 万金油：vue中央事件总线的使用.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/2. 万金油：vue中央事件总线的使用.html">
+            
+                    
+                    2. 万金油：vue中央事件总线的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.3" data-path="../../vue/Vue篇/vue各种情况的组件通信/3. props：最基础的父子组件间传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/3. props：最基础的父子组件间传递数据.html">
+            
+                    
+                    3. props：最基础的父子组件间传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.4" data-path="../../vue/Vue篇/vue各种情况的组件通信/4. v-model语法糖：子组件向父组件传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/4. v-model语法糖：子组件向父组件传递数据.html">
+            
+                    
+                    4. v-model语法糖：子组件向父组件传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.5" data-path="../../vue/Vue篇/vue各种情况的组件通信/5 .sync修饰符：进行父子组件间相互传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/5 .sync修饰符：进行父子组件间相互传递数据.html">
+            
+                    
+                    5. .sync修饰符：进行父子组件间相互传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.6" data-path="../../vue/Vue篇/vue各种情况的组件通信/6 父孙组件间传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/6 父孙组件间传递数据.html">
+            
+                    
+                    6. 父孙组件间传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.7" data-path="../../vue/Vue篇/vue各种情况的组件通信/7 $on属性：子组件调用父组件方法.md">
+            
+                <span>
+            
+                    
+                    7. $on属性：子组件调用父组件方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.8" data-path="../../vue/Vue篇/vue各种情况的组件通信/9 $refs属性.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/9 $refs属性.html">
+            
+                    
+                    9. $refs属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.9" data-path="../../vue/Vue篇/vue各种情况的组件通信/10 $parent属性.md">
+            
+                <span>
+            
+                    
+                    10. $parent属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.10" data-path="../../vue/Vue篇/vue各种情况的组件通信/11 $children属性.md">
+            
+                <span>
+            
+                    
+                    11. $children属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.11" data-path="../../vue/Vue篇/vue各种情况的组件通信/12 兄弟组件相互通信.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/12 兄弟组件相互通信.html">
+            
+                    
+                    12. 兄弟组件间相互通信
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.3" data-path="../../vue/Vue篇/实现一个自己的MVVM/">
+            
+                <a href="../../vue/Vue篇/实现一个自己的MVVM/">
+            
+                    
+                    实现一个自己的MVVM
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.3.1" data-path="../../vue/Vue篇/实现一个自己的MVVM/1 思路分析.html">
+            
+                <a href="../../vue/Vue篇/实现一个自己的MVVM/1 思路分析.html">
+            
+                    
+                    1 思路（需求）分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.3.2" data-path="../../vue/Vue篇/实现一个自己的MVVM/2 实例.html">
+            
+                <a href="../../vue/Vue篇/实现一个自己的MVVM/2 实例.html">
+            
+                    
+                    2 实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.4" data-path="../../vue/Vue篇/$nextTick介绍.html">
+            
+                <a href="../../vue/Vue篇/$nextTick介绍.html">
+            
+                    
+                    $nextTick介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.5" data-path="../../vue/Vue篇/动态组件与异步组件.html">
+            
+                <a href="../../vue/Vue篇/动态组件与异步组件.html">
+            
+                    
+                    动态组件与异步组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.6" data-path="../../vue/Vue篇/keep-alive.html">
+            
+                <a href="../../vue/Vue篇/keep-alive.html">
+            
+                    
+                    keep-alive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.7" data-path="../../vue/Vue篇/数组和对象的变动检测.html">
+            
+                <a href="../../vue/Vue篇/数组和对象的变动检测.html">
+            
+                    
+                    数组与对象的变动检测
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.8" data-path="../../vue/Vue篇/混入.html">
+            
+                <a href="../../vue/Vue篇/混入.html">
+            
+                    
+                    混入
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11" >
+            
+                <span>
+            
+                    
+                    1.3 vue 高级
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.11.1" data-path="../../vue/Vue篇/Vue 高级/1 vue的数据驱动原理、以及实现.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/1 vue的数据驱动原理、以及实现.html">
+            
+                    
+                    1 vue的数据驱动原理、以及实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11.2" data-path="../../vue/Vue篇/Vue 高级/2 vue的数据绑定原理.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/2 vue的数据绑定原理.html">
+            
+                    
+                    2 vue的数据绑定原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11.3" data-path="../../vue/Vue篇/Vue 高级/3 vue数据响应原理.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/3 vue数据响应原理.html">
+            
+                    
+                    3 vue数据响应原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11.4" data-path="../../vue/Vue篇/Vue 高级/4 vue数据依赖实现原理.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/4 vue数据依赖实现原理.html">
+            
+                    
+                    4 vue数据依赖实现原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../../vue-router篇/2.1 vue-router基础.md">
+            
+                <span>
+            
+                    
+                    二、vue-router 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../../vuex篇/3.1 基础.md">
+            
+                <span>
+            
+                    
+                    三、Vuex 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../../vue/Axios篇/axios使用基础.html">
+            
+                <a href="../../vue/Axios篇/axios使用基础.html">
+            
+                    
+                    四、axios 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../../../part3/README.md">
+            
+                <span>
+            
+                    
+                    五、实战技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../../vue/思考题/">
+            
+                <a href="../../vue/思考题/">
+            
+                    
+                    六、思考题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.6.1" data-path="../../vue/思考题/6.1 vue相关面试题.html">
+            
+                <a href="../../vue/思考题/6.1 vue相关面试题.html">
+            
+                    
+                    6.1 vue相关面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.2" data-path="../../vue/思考题/6.2 vue-router相关面试题.html">
+            
+                <a href="../../vue/思考题/6.2 vue-router相关面试题.html">
+            
+                    
+                    6.2 vue-router相关面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.3" data-path="../../vue/思考题/6.3 vuex相关面试题.html">
+            
+                <a href="../../vue/思考题/6.3 vuex相关面试题.html">
+            
+                    
+                    6.3 vuex相关面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.4" data-path="../../vue/思考题/6.4 axios面试题.html">
+            
+                <a href="../../vue/思考题/6.4 axios面试题.html">
+            
+                    
+                    6.4 axios面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.5" data-path="../../vue/思考题/6.5 小程序-相关面试题.html">
+            
+                <a href="../../vue/思考题/6.5 小程序-相关面试题.html">
+            
+                    
+                    6.5 小程序面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../../vue/思考题/自我介绍.html">
+            
+                <a href="../../vue/思考题/自我介绍.html">
+            
+                    
+                    七、自我介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../../vue/思考题/提问环节.html">
+            
+                <a href="../../vue/思考题/提问环节.html">
+            
+                    
+                    八、面试提问
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <span>
+            
+                    
+                    React
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" >
+            
+                <span>
+            
+                    
+                    React
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.2.1" data-path="hello world.html">
+            
+                <a href="hello world.html">
+            
+                    
+                    入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.2" data-path="开发工具配置.html">
+            
+                <a href="开发工具配置.html">
+            
+                    
+                    开发环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.3" >
+            
+                <a target="_blank" href="https://github.com/react-guide/react-basic">
+            
+                    
+                    React设计思想
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.4" data-path="../围绕着React的几点思考.html">
+            
+                <a href="../围绕着React的几点思考.html">
+            
+                    
+                    围绕着React的几点思考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.5" >
+            
+                <span>
+            
+                    
+                    组件之间数据传递
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.2.5.1" data-path="组件之间数据传递/父传子.html">
+            
+                <a href="组件之间数据传递/父传子.html">
+            
+                    
+                    父组件传递给子组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.5.2" >
+            
+                <span>
+            
+                    
+                    子组件传递给父组件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.5.3" >
+            
+                <span>
+            
+                    
+                    兄弟组件之间数据传递
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6" >
+            
+                <span>
+            
+                    
+                    核心软件包
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.2.6.1" data-path="常用软件包/react-dom.html">
+            
+                <a href="常用软件包/react-dom.html">
+            
+                    
+                    react-dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6.2" data-path="常用软件包/prop-types.html">
+            
+                <a href="常用软件包/prop-types.html">
+            
+                    
+                    prop-types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6.3" data-path="常用软件包/react-hot-loader.html">
+            
+                <a href="常用软件包/react-hot-loader.html">
+            
+                    
+                    prop-types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6.4" data-path="常用软件包/react-loadable.html">
+            
+                <a href="常用软件包/react-loadable.html">
+            
+                    
+                    prop-types
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="理解JSX.html">
+            
+                <a href="理解JSX.html">
+            
+                    
+                    JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3.4" data-path="diff算法.html">
+            
+                <a href="diff算法.html">
+            
+                    
+                    diff算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" >
+            
+                <span>
+            
+                    
+                    React-redux
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.5.1" data-path="../Redux/什么是Redux.html">
+            
+                <a href="../Redux/什么是Redux.html">
+            
+                    
+                    Redux是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" >
+            
+                <span>
+            
+                    
+                    React-router
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.6.1" data-path="../Router/开始.html">
+            
+                <a href="../Router/开始.html">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6.2" data-path="../Router/react-route-dom.html">
+            
+                <a href="../Router/react-route-dom.html">
+            
+                    
+                    react-router-dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="../面试题.html">
+            
+                <a href="../面试题.html">
+            
+                    
+                    面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" data-path="../围绕着React的几点思考.html">
+            
+                <a href="../围绕着React的几点思考.html">
+            
+                    
+                    围绕着React的几点思考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../Regular_expression.html">
+            
+                <a href="../../Regular_expression.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../http/readme.html">
+            
+                <a href="../../http/readme.html">
+            
+                    
+                    Http
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../../http/chapter1/1.内容介绍.html">
+            
+                <a href="../../http/chapter1/1.内容介绍.html">
+            
+                    
+                    内容介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" >
+            
+                <span>
+            
+                    
+                    HTTP协议基础及发展历史
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.2.1" data-path="../../http/chapter2/2.1五层网络模型介绍.html">
+            
+                <a href="../../http/chapter2/2.1五层网络模型介绍.html">
+            
+                    
+                    2.1 五层网络模型介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.2" data-path="../../http/chapter2/2.2http协议发展的历史.html">
+            
+                <a href="../../http/chapter2/2.2http协议发展的历史.html">
+            
+                    
+                    2.2 HTTP 协议发展历史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.3" data-path="../../http/chapter2/2.3HTTP的三次握手.html">
+            
+                <a href="../../http/chapter2/2.3HTTP的三次握手.html">
+            
+                    
+                    2.3 HTTP 的三次握手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.4" data-path="../../http/chapter2/2.4URI、URL和URN.html">
+            
+                <a href="../../http/chapter2/2.4URI、URL和URN.html">
+            
+                    
+                    2.4 URI、URL和URN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.5" data-path="../../http/chapter2/HTTP报文格式.html">
+            
+                <a href="../../http/chapter2/HTTP报文格式.html">
+            
+                    
+                    2.5 HTTP报文格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" >
+            
+                <span>
+            
+                    
+                    二、HTTP各种特性总结
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" >
+            
+                <span>
+            
+                    
+                    三、HTTPS
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.5" >
+            
+                <span>
+            
+                    
+                    四、Nginx代理以及面向未来的HTTP
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6" >
+            
+                <span>
+            
+                    
+                    重点思考
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.6.1" data-path="../../http/重点思考/常见Http状态码.html">
+            
+                <a href="../../http/重点思考/常见Http状态码.html">
+            
+                    
+                    常见Http状态码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6.2" data-path="../../http/重点思考/不同请求类型的区别.html">
+            
+                <a href="../../http/重点思考/不同请求类型的区别.html">
+            
+                    
+                    不同请求类型的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6.3" data-path="../../http/重点思考/缓存方案以及如何实现.html">
+            
+                <a href="../../http/重点思考/缓存方案以及如何实现.html">
+            
+                    
+                    缓存方案以及如何实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.7" data-path="../../http/面试题/mst.html">
+            
+                <a href="../../http/面试题/mst.html">
+            
+                    
+                    五、面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" >
+            
+                <span>
+            
+                    
+                    Flutter
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="../../flutter/material.html">
+            
+                <a href="../../flutter/material.html">
+            
+                    
+                    Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" data-path="../../flutter/widget.html">
+            
+                <a href="../../flutter/widget.html">
+            
+                    
+                    常用Widgets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3" data-path="../../flutter/painting.html">
+            
+                <a href="../../flutter/painting.html">
+            
+                    
+                    painting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" >
+            
+                <span>
+            
+                    
+                    前端工程化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" data-path="../../build_tool/">
+            
+                <a href="../../build_tool/">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2" >
+            
+                <span>
+            
+                    
+                    webpack
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.2.1" data-path="../../build_tool/webpack/1 开始.html">
+            
+                <a href="../../build_tool/webpack/1 开始.html">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.2" data-path="../../build_tool/webpack/2 什么是webpack.html">
+            
+                <a href="../../build_tool/webpack/2 什么是webpack.html">
+            
+                    
+                    什么是webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.3" data-path="../../build_tool/webpack/3 webpack的工作原理.html">
+            
+                <a href="../../build_tool/webpack/3 webpack的工作原理.html">
+            
+                    
+                    webpack的工作原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.4" data-path="../../build_tool/webpack/4 loader 和 plugin.md">
+            
+                <span>
+            
+                    
+                    loader和plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.5" data-path="../../build_tool/webpack/webpack面试题.html">
+            
+                <a href="../../build_tool/webpack/webpack面试题.html">
+            
+                    
+                    webpack面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.3" data-path="../../build_tool/">
+            
+                <a href="../../build_tool/">
+            
+                    
+                    gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.4" data-path="../../build_tool/">
+            
+                <a href="../../build_tool/">
+            
+                    
+                    grunt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" >
+            
+                <span>
+            
+                    
+                    数据结构与算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="../../algorithm/src/算法复杂度.html">
+            
+                <a href="../../algorithm/src/算法复杂度.html">
+            
+                    
+                    算法复杂度计算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="../../algorithm/src/二叉查找树.html">
+            
+                <a href="../../algorithm/src/二叉查找树.html">
+            
+                    
+                    二叉查找树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="../../algorithm/src/链表.html">
+            
+                <a href="../../algorithm/src/链表.html">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" >
+            
+                <span>
+            
+                    
+                    面试题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.4.1" data-path="../../algorithm/面试题/array.html">
+            
+                <a href="../../algorithm/面试题/array.html">
+            
+                    
+                    数组相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >diff算法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="理解JSX.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: JSX">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"diff算法","level":"2.3.4","depth":2,"next":{"title":"React-redux","level":"2.3.5","depth":2,"ref":"","articles":[{"title":"Redux是什么","level":"2.3.5.1","depth":3,"path":"doc/React/Redux/什么是Redux.md","ref":"doc/React/Redux/什么是Redux.md","articles":[]}]},"previous":{"title":"JSX","level":"2.3.3","depth":2,"path":"doc/React/React/理解JSX.md","ref":"doc/React/React/理解JSX.md","articles":[]},"dir":"neutral"},"config":{"plugins":["highlight","sharing","fontsettings","-search","search-plus","theme-comscore","anchor-navigation-ex-toc","code","splitter","expandable-chapters","chapter-fold"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"anchor-navigation-ex-toc":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"G-Dragon","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"生活的意义在于学习","language":"zh-hans","gitbook":">=3.0.0","description":"js知识点学习整理"},"file":{"path":"doc/React/React/diff算法.md","mtime":"2020-03-09T02:28:14.066Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-05T09:08:22.899Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

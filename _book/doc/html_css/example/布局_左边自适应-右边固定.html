@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>removeProp demo</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    div {
+        height: 100%;
+        position: absolute;
+    }
+
+    .box1 {
+        /*width: 300px;*/
+        width: 100%;
+        background: pink;
+        right: 300px;
+    }
+
+    .box2 {
+        /*width: 100%;*/
+        width: 300px;
+        background: #0f0;
+        /*left: 300px;*/
+        right: 0;
+    }
+
+    .box1, 
+    .box2 { 
+      color: #FFF; 
+      font-size: 30px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="box1"> Left </div>
+    <div class="box2"> Right </div>
+</body>
+
+</html>

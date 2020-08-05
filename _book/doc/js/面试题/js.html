@@ -1,0 +1,4033 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>JS 面试题 · 生活的意义在于学习</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="G-Dragon">
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-anchor-navigation-ex-toc/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../../styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="js-es5编程题.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../appsflyer/appsflyer_instruction.html">
+            
+                <a href="../../appsflyer/appsflyer_instruction.html">
+            
+                    
+                    AppsFlyer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../appsflyer/appsflyer_instruction.html">
+            
+                <a href="../../appsflyer/appsflyer_instruction.html">
+            
+                    
+                    AppsFlyer 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../appsflyer/appsflyer_web.html">
+            
+                <a href="../../appsflyer/appsflyer_web.html">
+            
+                    
+                    Web 端集成方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../appsflyer/SRN_explain.html">
+            
+                <a href="../../appsflyer/SRN_explain.html">
+            
+                    
+                    什么是 SRN?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../appsflyer/OneLink.html">
+            
+                <a href="../../appsflyer/OneLink.html">
+            
+                    
+                    OneLink 概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../appsflyer/web_sdk.md">
+            
+                <span>
+            
+                    
+                    Web SDK 集成指导
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../../appsflyer/people_based_attribution.html">
+            
+                <a href="../../appsflyer/people_based_attribution.html">
+            
+                    
+                    基于人的归因概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../../appsflyer/手动归因中媒体源和广告系列映射.html">
+            
+                <a href="../../appsflyer/手动归因中媒体源和广告系列映射.html">
+            
+                    
+                    手动归因中媒体源和广告系列映射
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../../appsflyer/人工分析.html">
+            
+                <a href="../../appsflyer/人工分析.html">
+            
+                    
+                    人工分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../../appsflyer/手动归因VS谷歌分析.html">
+            
+                <a href="../../appsflyer/手动归因VS谷歌分析.html">
+            
+                    
+                    手动归因 VS 谷歌分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../../appsflyer/手动归因的原始数据报告.html">
+            
+                <a href="../../appsflyer/手动归因的原始数据报告.html">
+            
+                    
+                    手动归因的原始数据报告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../ga_introduction.html">
+            
+                <a href="../../ga_introduction.html">
+            
+                    
+                    Google Analytics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../ga_introduction.html">
+            
+                <a href="../../ga_introduction.html">
+            
+                    
+                    ga 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../aws_introduction.html">
+            
+                <a href="../../aws_introduction.html">
+            
+                    
+                    AWS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../aws_introduction.html">
+            
+                <a href="../../aws_introduction.html">
+            
+                    
+                    aws 介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../../aws_invalidation.html">
+            
+                <a href="../../aws_invalidation.html">
+            
+                    
+                    aws 使缓存失效
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../web_awake_app.html">
+            
+                <a href="../../web_awake_app.html">
+            
+                    
+                    Web 唤起 App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    git
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../git/pages/1.git理论基础.html">
+            
+                <a href="../../git/pages/1.git理论基础.html">
+            
+                    
+                    git理论基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../git/pages/2.git查看状态和历史提交记录.html">
+            
+                <a href="../../git/pages/2.git查看状态和历史提交记录.html">
+            
+                    
+                    查看工作状态以及历史提交
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../../git/pages/3.回到过去.html">
+            
+                <a href="../../git/pages/3.回到过去.html">
+            
+                    
+                    回到过去
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../../git/pages/4.版本对比.html">
+            
+                <a href="../../git/pages/4.版本对比.html">
+            
+                    
+                    版本对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../../git/pages/5.删除文件和重命名文件.html">
+            
+                <a href="../../git/pages/5.删除文件和重命名文件.html">
+            
+                    
+                    删除文件和重命名文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../../git/pages/6.创建、切换、查看、合并和删除分支.html">
+            
+                <a href="../../git/pages/6.创建、切换、查看、合并和删除分支.html">
+            
+                    
+                    创建、切换、查看、合并以及删除分支
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../../git/pages/gitbook配置.html">
+            
+                <a href="../../git/pages/gitbook配置.html">
+            
+                    
+                    gitbook 配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    Html & Css
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../html_css/">
+            
+                <a href="../../html_css/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../html_css/pages/1. html基础.html">
+            
+                <a href="../../html_css/pages/1. html基础.html">
+            
+                    
+                    HTML基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../html_css/pages/2. css基础.html">
+            
+                <a href="../../html_css/pages/2. css基础.html">
+            
+                    
+                    CSS基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../html_css/pages/3. CSS 布局.html">
+            
+                <a href="../../html_css/pages/3. CSS 布局.html">
+            
+                    
+                    CSS布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../html_css/flexbox/flexbox.html">
+            
+                <a href="../../html_css/flexbox/flexbox.html">
+            
+                    
+                    Flexbox 布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../html_css/pages/4. Css效果.html">
+            
+                <a href="../../html_css/pages/4. Css效果.html">
+            
+                    
+                    CSS效果
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../../html_css/pages/5. Css 动画.html">
+            
+                <a href="../../html_css/pages/5. Css 动画.html">
+            
+                    
+                    CSS动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../../html_css/pages/6. 预处理器.html">
+            
+                <a href="../../html_css/pages/6. 预处理器.html">
+            
+                    
+                    预处理器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="../../html_css/pages/7. Bootstrap.html">
+            
+                <a href="../../html_css/pages/7. Bootstrap.html">
+            
+                    
+                    Bootstrap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.10" data-path="../../html_css/pages/8. CSS 工程化方案.html">
+            
+                <a href="../../html_css/pages/8. CSS 工程化方案.html">
+            
+                    
+                    Css工程化方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.11" data-path="../../html_css/pages/9-1 vue中使用css.html">
+            
+                <a href="../../html_css/pages/9-1 vue中使用css.html">
+            
+                    
+                    Vue中的Css
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12" >
+            
+                <span>
+            
+                    
+                    重点思考
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.12.1" data-path="../../html_css/重点思考/如何减少重写和重绘.html">
+            
+                <a href="../../html_css/重点思考/如何减少重写和重绘.html">
+            
+                    
+                    如何减少重排和重绘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12.2" data-path="../../html_css/重点思考/浏览器兼容性.html">
+            
+                <a href="../../html_css/重点思考/浏览器兼容性.html">
+            
+                    
+                    浏览器兼容性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12.3" data-path="../../html_css/重点思考/flex布局面试题.html">
+            
+                <a href="../../html_css/重点思考/flex布局面试题.html">
+            
+                    
+                    Flex 布局面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12.4" data-path="../../html_css/重点思考/动画.html">
+            
+                <a href="../../html_css/重点思考/动画.html">
+            
+                    
+                    css3动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13" >
+            
+                <span>
+            
+                    
+                    面试题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.13.1" data-path="../../html_css/面试题/html.html">
+            
+                <a href="../../html_css/面试题/html.html">
+            
+                    
+                    html 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13.2" data-path="../../html_css/面试题/css.html">
+            
+                <a href="../../html_css/面试题/css.html">
+            
+                    
+                    css 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    JavaScript
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <span>
+            
+                    
+                    第一部分 JavaScript 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="../part1/1.1 课程简介.html">
+            
+                <a href="../part1/1.1 课程简介.html">
+            
+                    
+                    1.1 课程简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" data-path="../part1/1.2 JS 基础知识（上）.md">
+            
+                <span>
+            
+                    
+                    1.2 JS 基础知识（上）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" data-path="../part1/1.3 JS 基础知识（中）.md">
+            
+                <span>
+            
+                    
+                    1.3 JS 基础知识（中）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.4" data-path="../part1/1.4 JS 基础知识（下）.md">
+            
+                <span>
+            
+                    
+                    1.4 JS 基础知识（下）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.5" data-path="../part1/1.5 JS-Web-API（上）.html">
+            
+                <a href="../part1/1.5 JS-Web-API（上）.html">
+            
+                    
+                    1.5 JS-Web-API（上）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.6" data-path="../part1/1.6 JS-Web-API（下）.html">
+            
+                <a href="../part1/1.6 JS-Web-API（下）.html">
+            
+                    
+                    1.6 JS-Web-API（下）
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.7" data-path="../part1/1.7 开发环境.html">
+            
+                <a href="../part1/1.7 开发环境.html">
+            
+                    
+                    1.7 开发环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.8" data-path="../part1/1.8 运行环境.html">
+            
+                <a href="../part1/1.8 运行环境.html">
+            
+                    
+                    1.8 运行环境
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.9" data-path="../重点思考/循环与迭代.html">
+            
+                <a href="../重点思考/循环与迭代.html">
+            
+                    
+                    循环与迭代
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.10" data-path="../重点思考/this指向.html">
+            
+                <a href="../重点思考/this指向.html">
+            
+                    
+                    this 指向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.11" data-path="../重点思考/作用域与作用域链.html">
+            
+                <a href="../重点思考/作用域与作用域链.html">
+            
+                    
+                    作用域与作用域链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.12" data-path="../重点思考/闭包.html">
+            
+                <a href="../重点思考/闭包.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.13" data-path="../重点思考/原型与原型链.html">
+            
+                <a href="../重点思考/原型与原型链.html">
+            
+                    
+                    原型与原型链
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.14" data-path="../重点思考/Js垃圾回收机制和内存泄漏.html">
+            
+                <a href="../重点思考/Js垃圾回收机制和内存泄漏.html">
+            
+                    
+                    Js 垃圾回收机制和内存泄漏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.15" data-path="../重点思考/Js事件循环.html">
+            
+                <a href="../重点思考/Js事件循环.html">
+            
+                    
+                    Js 事件循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.16" data-path="../重点思考/Promise.html">
+            
+                <a href="../重点思考/Promise.html">
+            
+                    
+                    Promise
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.17" data-path="../重点思考/async函数.md">
+            
+                <span>
+            
+                    
+                    async 函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.18" data-path="../重点思考/class与继承.html">
+            
+                <a href="../重点思考/class与继承.html">
+            
+                    
+                    class 与继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.19" data-path="../重点思考/cookie和session.html">
+            
+                <a href="../重点思考/cookie和session.html">
+            
+                    
+                    Cookie 和 Seesion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.20" data-path="../重点思考/Cookie、localStorage与sessionStorage.html">
+            
+                <a href="../重点思考/Cookie、localStorage与sessionStorage.html">
+            
+                    
+                    Cookie、localStorage 与 sessionStorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.21" data-path="../重点思考/堆内存和栈内存.html">
+            
+                <a href="../重点思考/堆内存和栈内存.html">
+            
+                    
+                    堆内存和栈内存
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.22" data-path="../重点思考/类型转换.html">
+            
+                <a href="../重点思考/类型转换.html">
+            
+                    
+                    Js 类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.23" data-path="../重点思考/面向对象与继承.html">
+            
+                <a href="../重点思考/面向对象与继承.html">
+            
+                    
+                    面向对象与继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.24" data-path="../重点思考/原型继承与类继承的区别.html">
+            
+                <a href="../重点思考/原型继承与类继承的区别.html">
+            
+                    
+                    Js 原型继承与类继承的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.25" data-path="../重点思考/new一个对象的过程.html">
+            
+                <a href="../重点思考/new一个对象的过程.html">
+            
+                    
+                    Js new 一个对象的过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.26" data-path="../重点思考/Js事件模型.html">
+            
+                <a href="../重点思考/Js事件模型.html">
+            
+                    
+                    Js 事件模型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.27" data-path="../重点思考/promise与setTimeout.html">
+            
+                <a href="../重点思考/promise与setTimeout.html">
+            
+                    
+                    promise 与 setTimeout
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.28" data-path="../重点思考/深入理解CDN.html">
+            
+                <a href="../重点思考/深入理解CDN.html">
+            
+                    
+                    深入理解 CDN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.29" data-path="../重点思考/frontend_storage.html">
+            
+                <a href="../重点思考/frontend_storage.html">
+            
+                    
+                    Web Storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.30" data-path="../重点思考/Object.is与===的不同.html">
+            
+                <a href="../重点思考/Object.is与===的不同.html">
+            
+                    
+                    Object.is() vs ”===“
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.31" data-path="../重点思考/es6_symbol.html">
+            
+                <a href="../重点思考/es6_symbol.html">
+            
+                    
+                    ES6 Symbol
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" >
+            
+                <span>
+            
+                    
+                    第二部分 JavaScript 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.3.1" data-path="../part2/2.1 课程简介.html">
+            
+                <a href="../part2/2.1 课程简介.html">
+            
+                    
+                    2.1 课程介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.2" data-path="../part2/2.3 原型.html">
+            
+                <a href="../part2/2.3 原型.html">
+            
+                    
+                    2.3 原型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.3" data-path="../part2/2.4 异步.html">
+            
+                <a href="../part2/2.4 异步.html">
+            
+                    
+                    2.4 异步
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.4" data-path="../part2/2.5 虚拟 DOM.md">
+            
+                <span>
+            
+                    
+                    2.5 虚拟 DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.5" data-path="../(part2/2.6 MVVM 和 Vue.md">
+            
+                <span>
+            
+                    
+                    2.6 MVVM和Vue
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.6" data-path="../part2/2.7 组件化和 React.md">
+            
+                <span>
+            
+                    
+                    2.7 组件化 和 React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.7" data-path="../part2/2.8 hybrid.html">
+            
+                <a href="../part2/2.8 hybrid.html">
+            
+                    
+                    2.8 hybrid
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.8" data-path="../part2/2.9 事件循环.html">
+            
+                <a href="../part2/2.9 事件循环.html">
+            
+                    
+                    2.9 事件循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3.9" data-path="../part2/2.10 总结.html">
+            
+                <a href="../part2/2.10 总结.html">
+            
+                    
+                    2.10 总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" >
+            
+                <span>
+            
+                    
+                    第三部分 正则表达式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.4.1" data-path="../part4/JS正则表达式.html">
+            
+                <a href="../part4/JS正则表达式.html">
+            
+                    
+                    正则表达式语法总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4.2" data-path="regExp.html">
+            
+                <a href="regExp.html">
+            
+                    
+                    正则面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="../part3/小程序基础.html">
+            
+                <a href="../part3/小程序基础.html">
+            
+                    
+                    第四部分 微信小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="../part5/数据结构与算法.html">
+            
+                <a href="../part5/数据结构与算法.html">
+            
+                    
+                    第五部分 数据结构与算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" >
+            
+                <span>
+            
+                    
+                    ES6 学习
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.7.1" data-path="../es6/变量的结构赋值.html">
+            
+                <a href="../es6/变量的结构赋值.html">
+            
+                    
+                    变量的结构赋值
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.2" data-path="../es6/es6语法.html">
+            
+                <a href="../es6/es6语法.html">
+            
+                    
+                    es6 基本语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.3" data-path="../es6/Promise 和 Async function.html">
+            
+                <a href="../es6/Promise 和 Async function.html">
+            
+                    
+                    Promise 和 Async函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.4" data-path="../es6/新增数据类型.html">
+            
+                <a href="../es6/新增数据类型.html">
+            
+                    
+                    Es6 新增数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7.5" data-path="../es6/ES6面试题.html">
+            
+                <a href="../es6/ES6面试题.html">
+            
+                    
+                    Es6 面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="../RESTful API/1 简介.html">
+            
+                <a href="../RESTful API/1 简介.html">
+            
+                    
+                    第6部分 RESTful API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9" >
+            
+                <span>
+            
+                    
+                    第7部分 面试题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.9.1" data-path="js.html">
+            
+                <a href="js.html">
+            
+                    
+                    JS 面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.2" data-path="js-es5编程题.html">
+            
+                <a href="js-es5编程题.html">
+            
+                    
+                    JS es5 编程题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.3" data-path="js-es6.html">
+            
+                <a href="js-es6.html">
+            
+                    
+                    JS es6 面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.4" data-path="regExp.html">
+            
+                <a href="regExp.html">
+            
+                    
+                    正则面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.5" data-path="浏览器.html">
+            
+                <a href="浏览器.html">
+            
+                    
+                    浏览器篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.6" data-path="微信小程序.html">
+            
+                <a href="微信小程序.html">
+            
+                    
+                    微信小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.9.7" data-path="算法面试题.html">
+            
+                <a href="算法面试题.html">
+            
+                    
+                    算法面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../vue/readme.html">
+            
+                <a href="../../vue/readme.html">
+            
+                    
+                    Vue
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../vue/Vue篇/">
+            
+                <a href="../../vue/Vue篇/">
+            
+                    
+                    一、vue 篇
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="../../vue/Vue篇/1.1.1 class.html">
+            
+                <a href="../../vue/Vue篇/1.1.1 class.html">
+            
+                    
+                    1.1 vue 基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.2" data-path="../../vue/Vue篇/1.1.1 class.html">
+            
+                <a href="../../vue/Vue篇/1.1.1 class.html">
+            
+                    
+                    1.1.1 class
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.3" data-path="../../vue/Vue篇/1.1.2 页面跳转.html">
+            
+                <a href="../../vue/Vue篇/1.1.2 页面跳转.html">
+            
+                    
+                    1.1.2 页面跳转
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.4" >
+            
+                <span>
+            
+                    
+                    1.1.3 Vue自带的filter列表（v1.0 and v2.0）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.5" data-path="../../vue/Vue篇/1.1.3 条件渲染.html">
+            
+                <a href="../../vue/Vue篇/1.1.3 条件渲染.html">
+            
+                    
+                    1.1.3 条件渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.6" data-path="../../vue/Vue篇/1.1.4 vue基础.html">
+            
+                <a href="../../vue/Vue篇/1.1.4 vue基础.html">
+            
+                    
+                    1.1.4 vue基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.7" data-path="../../vue/Vue篇/1.1.5 vue组件.html">
+            
+                <a href="../../vue/Vue篇/1.1.5 vue组件.html">
+            
+                    
+                    1.1.5 vue组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.8" data-path="../../vue/Vue篇/vue基础知识/1 生命周期.html">
+            
+                <a href="../../vue/Vue篇/vue基础知识/1 生命周期.html">
+            
+                    
+                    1.1.6 vue生命周期
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.9" data-path="../../vue/Vue篇/vue基础知识/2 指令.html">
+            
+                <a href="../../vue/Vue篇/vue基础知识/2 指令.html">
+            
+                    
+                    1.1.7 指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10" >
+            
+                <span>
+            
+                    
+                    1.2 vue 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.1" >
+            
+                <span>
+            
+                    
+                    使用样式与字体
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.1.1" >
+            
+                <span>
+            
+                    
+                    1. Vue中使用sass
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.2" >
+            
+                <span>
+            
+                    
+                    2. Vue中使用less
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.3" >
+            
+                <span>
+            
+                    
+                    3. Vue中使用font-awesome
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.4" >
+            
+                <span>
+            
+                    
+                    4. Vue中使用bootstrap
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.1.5" >
+            
+                <span>
+            
+                    
+                    5. Vue中引入样式
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2" >
+            
+                <span>
+            
+                    
+                    Vue各种情况下组件间通信
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.2.1" data-path="../../vue/Vue篇/vue各种情况的组件通信/1. 关于vue组件间通信问题的回答.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/1. 关于vue组件间通信问题的回答.html">
+            
+                    
+                    1. 关于vue组件间通信问题的回答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.2" data-path="../../vue/Vue篇/vue各种情况的组件通信/2. 万金油：vue中央事件总线的使用.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/2. 万金油：vue中央事件总线的使用.html">
+            
+                    
+                    2. 万金油：vue中央事件总线的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.3" data-path="../../vue/Vue篇/vue各种情况的组件通信/3. props：最基础的父子组件间传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/3. props：最基础的父子组件间传递数据.html">
+            
+                    
+                    3. props：最基础的父子组件间传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.4" data-path="../../vue/Vue篇/vue各种情况的组件通信/4. v-model语法糖：子组件向父组件传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/4. v-model语法糖：子组件向父组件传递数据.html">
+            
+                    
+                    4. v-model语法糖：子组件向父组件传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.5" data-path="../../vue/Vue篇/vue各种情况的组件通信/5 .sync修饰符：进行父子组件间相互传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/5 .sync修饰符：进行父子组件间相互传递数据.html">
+            
+                    
+                    5. .sync修饰符：进行父子组件间相互传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.6" data-path="../../vue/Vue篇/vue各种情况的组件通信/6 父孙组件间传递数据.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/6 父孙组件间传递数据.html">
+            
+                    
+                    6. 父孙组件间传递数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.7" data-path="../../vue/Vue篇/vue各种情况的组件通信/7 $on属性：子组件调用父组件方法.md">
+            
+                <span>
+            
+                    
+                    7. $on属性：子组件调用父组件方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.8" data-path="../../vue/Vue篇/vue各种情况的组件通信/9 $refs属性.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/9 $refs属性.html">
+            
+                    
+                    9. $refs属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.9" data-path="../../vue/Vue篇/vue各种情况的组件通信/10 $parent属性.md">
+            
+                <span>
+            
+                    
+                    10. $parent属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.10" data-path="../../vue/Vue篇/vue各种情况的组件通信/11 $children属性.md">
+            
+                <span>
+            
+                    
+                    11. $children属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.2.11" data-path="../../vue/Vue篇/vue各种情况的组件通信/12 兄弟组件相互通信.html">
+            
+                <a href="../../vue/Vue篇/vue各种情况的组件通信/12 兄弟组件相互通信.html">
+            
+                    
+                    12. 兄弟组件间相互通信
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.3" data-path="../../vue/Vue篇/实现一个自己的MVVM/">
+            
+                <a href="../../vue/Vue篇/实现一个自己的MVVM/">
+            
+                    
+                    实现一个自己的MVVM
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.10.3.1" data-path="../../vue/Vue篇/实现一个自己的MVVM/1 思路分析.html">
+            
+                <a href="../../vue/Vue篇/实现一个自己的MVVM/1 思路分析.html">
+            
+                    
+                    1 思路（需求）分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.3.2" data-path="../../vue/Vue篇/实现一个自己的MVVM/2 实例.html">
+            
+                <a href="../../vue/Vue篇/实现一个自己的MVVM/2 实例.html">
+            
+                    
+                    2 实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.4" data-path="../../vue/Vue篇/$nextTick介绍.html">
+            
+                <a href="../../vue/Vue篇/$nextTick介绍.html">
+            
+                    
+                    $nextTick介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.5" data-path="../../vue/Vue篇/动态组件与异步组件.html">
+            
+                <a href="../../vue/Vue篇/动态组件与异步组件.html">
+            
+                    
+                    动态组件与异步组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.6" data-path="../../vue/Vue篇/keep-alive.html">
+            
+                <a href="../../vue/Vue篇/keep-alive.html">
+            
+                    
+                    keep-alive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.7" data-path="../../vue/Vue篇/数组和对象的变动检测.html">
+            
+                <a href="../../vue/Vue篇/数组和对象的变动检测.html">
+            
+                    
+                    数组与对象的变动检测
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.10.8" data-path="../../vue/Vue篇/混入.html">
+            
+                <a href="../../vue/Vue篇/混入.html">
+            
+                    
+                    混入
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11" >
+            
+                <span>
+            
+                    
+                    1.3 vue 高级
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.11.1" data-path="../../vue/Vue篇/Vue 高级/1 vue的数据驱动原理、以及实现.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/1 vue的数据驱动原理、以及实现.html">
+            
+                    
+                    1 vue的数据驱动原理、以及实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11.2" data-path="../../vue/Vue篇/Vue 高级/2 vue的数据绑定原理.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/2 vue的数据绑定原理.html">
+            
+                    
+                    2 vue的数据绑定原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11.3" data-path="../../vue/Vue篇/Vue 高级/3 vue数据响应原理.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/3 vue数据响应原理.html">
+            
+                    
+                    3 vue数据响应原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.11.4" data-path="../../vue/Vue篇/Vue 高级/4 vue数据依赖实现原理.html">
+            
+                <a href="../../vue/Vue篇/Vue 高级/4 vue数据依赖实现原理.html">
+            
+                    
+                    4 vue数据依赖实现原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../../../vue-router篇/2.1 vue-router基础.md">
+            
+                <span>
+            
+                    
+                    二、vue-router 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../../../vuex篇/3.1 基础.md">
+            
+                <span>
+            
+                    
+                    三、Vuex 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../../vue/Axios篇/axios使用基础.html">
+            
+                <a href="../../vue/Axios篇/axios使用基础.html">
+            
+                    
+                    四、axios 篇
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../../../part3/README.md">
+            
+                <span>
+            
+                    
+                    五、实战技巧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../../vue/思考题/">
+            
+                <a href="../../vue/思考题/">
+            
+                    
+                    六、思考题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.6.1" data-path="../../vue/思考题/6.1 vue相关面试题.html">
+            
+                <a href="../../vue/思考题/6.1 vue相关面试题.html">
+            
+                    
+                    6.1 vue相关面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.2" data-path="../../vue/思考题/6.2 vue-router相关面试题.html">
+            
+                <a href="../../vue/思考题/6.2 vue-router相关面试题.html">
+            
+                    
+                    6.2 vue-router相关面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.3" data-path="../../vue/思考题/6.3 vuex相关面试题.html">
+            
+                <a href="../../vue/思考题/6.3 vuex相关面试题.html">
+            
+                    
+                    6.3 vuex相关面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.4" data-path="../../vue/思考题/6.4 axios面试题.html">
+            
+                <a href="../../vue/思考题/6.4 axios面试题.html">
+            
+                    
+                    6.4 axios面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6.5" data-path="../../vue/思考题/6.5 小程序-相关面试题.html">
+            
+                <a href="../../vue/思考题/6.5 小程序-相关面试题.html">
+            
+                    
+                    6.5 小程序面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../../vue/思考题/自我介绍.html">
+            
+                <a href="../../vue/思考题/自我介绍.html">
+            
+                    
+                    七、自我介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../../vue/思考题/提问环节.html">
+            
+                <a href="../../vue/思考题/提问环节.html">
+            
+                    
+                    八、面试提问
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <span>
+            
+                    
+                    React
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../../React/">
+            
+                <a href="../../React/">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" >
+            
+                <span>
+            
+                    
+                    React
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.2.1" data-path="../../React/React/hello world.html">
+            
+                <a href="../../React/React/hello world.html">
+            
+                    
+                    入门
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.2" data-path="../../React/React/开发工具配置.html">
+            
+                <a href="../../React/React/开发工具配置.html">
+            
+                    
+                    开发环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.3" >
+            
+                <a target="_blank" href="https://github.com/react-guide/react-basic">
+            
+                    
+                    React设计思想
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.4" data-path="../../React/围绕着React的几点思考.html">
+            
+                <a href="../../React/围绕着React的几点思考.html">
+            
+                    
+                    围绕着React的几点思考
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.5" >
+            
+                <span>
+            
+                    
+                    组件之间数据传递
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.2.5.1" data-path="../../React/React/组件之间数据传递/父传子.html">
+            
+                <a href="../../React/React/组件之间数据传递/父传子.html">
+            
+                    
+                    父组件传递给子组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.5.2" >
+            
+                <span>
+            
+                    
+                    子组件传递给父组件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.5.3" >
+            
+                <span>
+            
+                    
+                    兄弟组件之间数据传递
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6" >
+            
+                <span>
+            
+                    
+                    核心软件包
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.2.6.1" data-path="../../React/React/常用软件包/react-dom.html">
+            
+                <a href="../../React/React/常用软件包/react-dom.html">
+            
+                    
+                    react-dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6.2" data-path="../../React/React/常用软件包/prop-types.html">
+            
+                <a href="../../React/React/常用软件包/prop-types.html">
+            
+                    
+                    prop-types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6.3" data-path="../../React/React/常用软件包/react-hot-loader.html">
+            
+                <a href="../../React/React/常用软件包/react-hot-loader.html">
+            
+                    
+                    prop-types
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2.6.4" data-path="../../React/React/常用软件包/react-loadable.html">
+            
+                <a href="../../React/React/常用软件包/react-loadable.html">
+            
+                    
+                    prop-types
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../../React/React/理解JSX.html">
+            
+                <a href="../../React/React/理解JSX.html">
+            
+                    
+                    JSX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../../React/React/diff算法.html">
+            
+                <a href="../../React/React/diff算法.html">
+            
+                    
+                    diff算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" >
+            
+                <span>
+            
+                    
+                    React-redux
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.5.1" data-path="../../React/Redux/什么是Redux.html">
+            
+                <a href="../../React/Redux/什么是Redux.html">
+            
+                    
+                    Redux是什么
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" >
+            
+                <span>
+            
+                    
+                    React-router
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.6.1" data-path="../../React/Router/开始.html">
+            
+                <a href="../../React/Router/开始.html">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6.2" data-path="../../React/Router/react-route-dom.html">
+            
+                <a href="../../React/Router/react-route-dom.html">
+            
+                    
+                    react-router-dom
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.7" data-path="../../React/面试题.html">
+            
+                <a href="../../React/面试题.html">
+            
+                    
+                    面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.8" data-path="../../React/围绕着React的几点思考.html">
+            
+                <a href="../../React/围绕着React的几点思考.html">
+            
+                    
+                    围绕着React的几点思考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../Regular_expression.html">
+            
+                <a href="../../Regular_expression.html">
+            
+                    
+                    正则表达式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../http/readme.html">
+            
+                <a href="../../http/readme.html">
+            
+                    
+                    Http
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../../http/chapter1/1.内容介绍.html">
+            
+                <a href="../../http/chapter1/1.内容介绍.html">
+            
+                    
+                    内容介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" >
+            
+                <span>
+            
+                    
+                    HTTP协议基础及发展历史
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.2.1" data-path="../../http/chapter2/2.1五层网络模型介绍.html">
+            
+                <a href="../../http/chapter2/2.1五层网络模型介绍.html">
+            
+                    
+                    2.1 五层网络模型介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.2" data-path="../../http/chapter2/2.2http协议发展的历史.html">
+            
+                <a href="../../http/chapter2/2.2http协议发展的历史.html">
+            
+                    
+                    2.2 HTTP 协议发展历史
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.3" data-path="../../http/chapter2/2.3HTTP的三次握手.html">
+            
+                <a href="../../http/chapter2/2.3HTTP的三次握手.html">
+            
+                    
+                    2.3 HTTP 的三次握手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.4" data-path="../../http/chapter2/2.4URI、URL和URN.html">
+            
+                <a href="../../http/chapter2/2.4URI、URL和URN.html">
+            
+                    
+                    2.4 URI、URL和URN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2.5" data-path="../../http/chapter2/HTTP报文格式.html">
+            
+                <a href="../../http/chapter2/HTTP报文格式.html">
+            
+                    
+                    2.5 HTTP报文格式
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" >
+            
+                <span>
+            
+                    
+                    二、HTTP各种特性总结
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" >
+            
+                <span>
+            
+                    
+                    三、HTTPS
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.5" >
+            
+                <span>
+            
+                    
+                    四、Nginx代理以及面向未来的HTTP
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6" >
+            
+                <span>
+            
+                    
+                    重点思考
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.6.1" data-path="../../http/重点思考/常见Http状态码.html">
+            
+                <a href="../../http/重点思考/常见Http状态码.html">
+            
+                    
+                    常见Http状态码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6.2" data-path="../../http/重点思考/不同请求类型的区别.html">
+            
+                <a href="../../http/重点思考/不同请求类型的区别.html">
+            
+                    
+                    不同请求类型的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6.3" data-path="../../http/重点思考/缓存方案以及如何实现.html">
+            
+                <a href="../../http/重点思考/缓存方案以及如何实现.html">
+            
+                    
+                    缓存方案以及如何实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.7" data-path="../../http/面试题/mst.html">
+            
+                <a href="../../http/面试题/mst.html">
+            
+                    
+                    五、面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" >
+            
+                <span>
+            
+                    
+                    Flutter
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="../../flutter/material.html">
+            
+                <a href="../../flutter/material.html">
+            
+                    
+                    Material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" data-path="../../flutter/widget.html">
+            
+                <a href="../../flutter/widget.html">
+            
+                    
+                    常用Widgets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3" data-path="../../flutter/painting.html">
+            
+                <a href="../../flutter/painting.html">
+            
+                    
+                    painting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" >
+            
+                <span>
+            
+                    
+                    前端工程化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" data-path="../../build_tool/">
+            
+                <a href="../../build_tool/">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2" >
+            
+                <span>
+            
+                    
+                    webpack
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.2.1" data-path="../../build_tool/webpack/1 开始.html">
+            
+                <a href="../../build_tool/webpack/1 开始.html">
+            
+                    
+                    开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.2" data-path="../../build_tool/webpack/2 什么是webpack.html">
+            
+                <a href="../../build_tool/webpack/2 什么是webpack.html">
+            
+                    
+                    什么是webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.3" data-path="../../build_tool/webpack/3 webpack的工作原理.html">
+            
+                <a href="../../build_tool/webpack/3 webpack的工作原理.html">
+            
+                    
+                    webpack的工作原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.4" data-path="../../build_tool/webpack/4 loader 和 plugin.md">
+            
+                <span>
+            
+                    
+                    loader和plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2.5" data-path="../../build_tool/webpack/webpack面试题.html">
+            
+                <a href="../../build_tool/webpack/webpack面试题.html">
+            
+                    
+                    webpack面试题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.3" data-path="../../build_tool/">
+            
+                <a href="../../build_tool/">
+            
+                    
+                    gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.4" data-path="../../build_tool/">
+            
+                <a href="../../build_tool/">
+            
+                    
+                    grunt
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" >
+            
+                <span>
+            
+                    
+                    数据结构与算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="../../algorithm/src/算法复杂度.html">
+            
+                <a href="../../algorithm/src/算法复杂度.html">
+            
+                    
+                    算法复杂度计算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="../../algorithm/src/二叉查找树.html">
+            
+                <a href="../../algorithm/src/二叉查找树.html">
+            
+                    
+                    二叉查找树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="../../algorithm/src/链表.html">
+            
+                <a href="../../algorithm/src/链表.html">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" >
+            
+                <span>
+            
+                    
+                    面试题
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.4.1" data-path="../../algorithm/面试题/array.html">
+            
+                <a href="../../algorithm/面试题/array.html">
+            
+                    
+                    数组相关
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >JS 面试题</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x4E8B;&#x4EF6;&#x5FAA;&#x73AF;"><b>1. </b>&#x4E8B;&#x4EF6;&#x5FAA;&#x73AF;</a></li><li><span class="title-icon "></span><a href="#&#x4E25;&#x683C;&#x6A21;&#x5F0F;"><b>2. </b>&#x4E25;&#x683C;&#x6A21;&#x5F0F;</a></li><li><span class="title-icon "></span><a href="#&#x8C08;&#x8C08;javascript&#x6570;&#x7EC4;&#x6392;&#x5E8F;&#x65B9;&#x6CD5;sort&#x7684;&#x4F7F;&#x7528;&#x91CD;&#x70B9;&#x4ECB;&#x7ECD;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x53CA;&#x5185;&#x90E8;&#x673A;&#x5236;"><b>3. </b>&#x8C08;&#x8C08;javascript&#x6570;&#x7EC4;&#x6392;&#x5E8F;&#x65B9;&#x6CD5;sort()&#x7684;&#x4F7F;&#x7528;,&#x91CD;&#x70B9;&#x4ECB;&#x7ECD;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x53CA;&#x5185;&#x90E8;&#x673A;&#x5236;?</a></li><li><span class="title-icon "></span><a href="#json&#x548C;jsonp&#x7684;&#x533A;&#x522B;"><b>4. </b>json&#x548C;jsonp&#x7684;&#x533A;&#x522B;?</a></li><li><span class="title-icon "></span><a href="#&#x4E3E;&#x4F8B;&#x8BF4;&#x660E;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;"><b>5. </b>&#x4E3E;&#x4F8B;&#x8BF4;&#x660E;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;?</a></li><li><span class="title-icon "></span><a href="#&#x8BF4;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;"><b>6. </b>&#x8BF4;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;</a></li><ul><li><span class="title-icon "></span><a href="#&#x95ED;&#x5305;&#x7684;&#x4F5C;&#x7528;"><b>6.1. </b>&#x95ED;&#x5305;&#x7684;&#x4F5C;&#x7528;</a></li><ul><li><span class="title-icon "></span><a href="#&#x7528;&#x95ED;&#x5305;&#x6A21;&#x62DF;&#x79C1;&#x6709;&#x65B9;&#x6CD5;"><b>6.1.1. </b>&#x7528;&#x95ED;&#x5305;&#x6A21;&#x62DF;&#x79C1;&#x6709;&#x65B9;&#x6CD5;</a></li><li><span class="title-icon "></span><a href="#&#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x521B;&#x5EFA;&#x95ED;&#x5305;&#xFF1A;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x9519;&#x8BEF;"><b>6.1.2. </b>&#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x521B;&#x5EFA;&#x95ED;&#x5305;&#xFF1A;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x9519;&#x8BEF;</a></li></ul><li><span class="title-icon "></span><a href="#&#x6027;&#x80FD;&#x8003;&#x91CF;"><b>6.2. </b>&#x6027;&#x80FD;&#x8003;&#x91CF;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;&#xFF1F;&#x95ED;&#x5305;&#x6709;&#x4F55;&#x4F18;&#x7F3A;&#x70B9;&#xFF1F;"><b>7. </b>&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;&#xFF1F;&#x95ED;&#x5305;&#x6709;&#x4F55;&#x4F18;&#x7F3A;&#x70B9;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x539F;&#x578B;&#x4E0E;&#x539F;&#x578B;&#x94FE;"><b>8. </b>&#x539F;&#x578B;&#x4E0E;&#x539F;&#x578B;&#x94FE;</a></li><ul><li><span class="title-icon "></span><a href="#&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;"><b>8.1. </b>&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;</a></li><li><span class="title-icon "></span><a href="#&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;&#x94FE;"><b>8.2. </b>&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;&#x94FE;</a></li><li><span class="title-icon "></span><a href="#&#x5982;&#x4F55;&#x5206;&#x6790;&#x539F;&#x578B;&#x94FE;"><b>8.3. </b>&#x5982;&#x4F55;&#x5206;&#x6790;&#x539F;&#x578B;&#x94FE;?</a></li></ul><li><span class="title-icon "></span><a href="#&#x4EC0;&#x4E48;&#x662F;&#x56DE;&#x8C03;"><b>9. </b>&#x4EC0;&#x4E48;&#x662F;&#x56DE;&#x8C03;</a></li><li><span class="title-icon "></span><a href="#&#x5982;&#x4F55;&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;"><b>10. </b>&#x5982;&#x4F55;&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;</a></li><li><span class="title-icon "></span><a href="#localstorage&#x548C;sessionstorage&#x662F;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;"><b>11. </b>localstorage&#x548C;sessionstorage&#x662F;&#x4EC0;&#x4E48;?&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;?</a></li><li><span class="title-icon "></span><a href="#&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x548C;&#x5192;&#x6CE1;&#xFF1F;&#x5982;&#x4F55;&#x963B;&#x6B62;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#xFF1F;&#xFF08;js&#x539F;&#x751F;&#x548C;jquery&#x4E24;&#x79CD;&#xFF09;"><b>12. </b>&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x548C;&#x5192;&#x6CE1;&#xFF1F;&#x5982;&#x4F55;&#x963B;&#x6B62;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#xFF1F;&#xFF08;js&#x539F;&#x751F;&#x548C;jQuery&#x4E24;&#x79CD;&#xFF09;</a></li><li><span class="title-icon "></span><a href="#js&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#xFF0C;&#x81F3;&#x5C11;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x3002;"><b>13. </b>js&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#xFF0C;&#x81F3;&#x5C11;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x3002;</a></li><li><span class="title-icon "></span><a href="#&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x4E8B;&#x4EF6;&#x7A7F;&#x900F;&#xFF0C;&#x53CA;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x3002;"><b>14. </b>&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x4E8B;&#x4EF6;&#x7A7F;&#x900F;&#xFF0C;&#x53CA;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x3002;</a></li><li><span class="title-icon "></span><a href="#&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x662F;&#x6570;&#x7EC4;"><b>15. </b>&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x662F;&#x6570;&#x7EC4;</a></li><li><span class="title-icon "></span><a href="#js-&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;"><b>16. </b>js &#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;</a></li><li><span class="title-icon "></span><a href="#&#x600E;&#x6837;&#x5B9E;&#x73B0;&#x5BF9;&#x8C61;&#x7684;&#x62F7;&#x8D1D;&#xFF1F;&#xFF08;es5&#xFF09;"><b>17. </b>&#x600E;&#x6837;&#x5B9E;&#x73B0;&#x5BF9;&#x8C61;&#x7684;&#x62F7;&#x8D1D;&#xFF1F;&#xFF08;ES5&#xFF09;</a></li><li><span class="title-icon "></span><a href="#&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;ajax&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;"><b>18. </b>&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;ajax&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;</a></li><li><span class="title-icon "></span><a href="#&#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x6709;&#x8DE8;&#x57DF;&#xFF1F;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x7684;&#xFF1F;&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x3002;"><b>19. </b>&#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x6709;&#x8DE8;&#x57DF;&#xFF1F;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x7684;&#xFF1F;&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x3002;</a></li><li><span class="title-icon "></span><a href="#js&#x7684;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x54EA;&#x4E9B;&#xFF1F;"><b>20. </b>js&#x7684;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x54EA;&#x4E9B;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;"><b>21. </b>&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;(&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;)&#x3002;</a></li><li><span class="title-icon "></span><a href="#&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x6709;&#x5426;&#x6B63;&#x786E;&#xFF1F;&#x5982;&#x4E0D;&#x6B63;&#x786E;&#xFF0C;&#x8BF7;&#x6539;&#x6B63;"><b>22. </b>&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x6709;&#x5426;&#x6B63;&#x786E;&#xFF1F;&#x5982;&#x4E0D;&#x6B63;&#x786E;&#xFF0C;&#x8BF7;&#x6539;&#x6B63;</a></li><li><span class="title-icon "></span><a href="#typeof&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x7ED3;&#x679C;&#xFF1F;"><b>23. </b>typeof&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x7ED3;&#x679C;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x8BF7;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x6570;&#x7EC4;&#x53BB;&#x91CD;"><b>24. </b>&#x8BF7;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x6570;&#x7EC4;&#x53BB;&#x91CD;</a></li><li><span class="title-icon "></span><a href="#&#x68C0;&#x6D4B;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x6709;prop&#x5C5E;&#x6027;&#xFF0C;&#x6CA1;&#x6709;&#x5C31;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;true&#xFF0C;&#x5E76;&#x5220;&#x6389;&#x8BE5;&#x5C5E;&#x6027;"><b>25. </b>&#x68C0;&#x6D4B;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x6709;prop&#x5C5E;&#x6027;&#xFF0C;&#x6CA1;&#x6709;&#x5C31;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;true&#xFF0C;&#x5E76;&#x5220;&#x6389;&#x8BE5;&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#href&#x548C;src&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><b>26. </b>href&#x548C;src&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x76F8;&#x4E92;&#x4F9D;&#x8D56;&#x7684;&#x95EE;&#x9898;"><b>27. </b>&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x76F8;&#x4E92;&#x4F9D;&#x8D56;&#x7684;&#x95EE;&#x9898;</a></li><li><span class="title-icon "></span><a href="#es6-&#x76F8;&#x5173;"><b>28. </b>ES6 &#x76F8;&#x5173;</a></li><ul><li><span class="title-icon "></span><a href="#&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x548C;&#x666E;&#x901A;&#x51FD;&#x6570;&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><b>28.1. </b>&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x548C;&#x666E;&#x901A;&#x51FD;&#x6570;&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;"><b>28.2. </b>&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;</a></li><li><span class="title-icon "></span><a href="#&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x7279;&#x70B9;"><b>28.3. </b>&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x7279;&#x70B9;</a></li></ul><li><span class="title-icon "></span><a href="#jquery"><b>29. </b>jQuery</a></li><ul><li><span class="title-icon "></span><a href="#windowonload&#x548C;jquery&#x7684;ready&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><b>29.1. </b>window.onload&#x548C;jQuery&#x7684;ready&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#jquery-&#x6709;&#x54EA;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#xFF1F;"><b>29.2. </b>jQuery &#x6709;&#x54EA;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#attr&#x548C;prop&#x7684;&#x533A;&#x522B;&#xFF1F;"><b>29.3. </b>attr()&#x548C;prop()&#x7684;&#x533A;&#x522B;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#on&#x548C;bind&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;js&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x7684;dom&#x5143;&#x7D20;&#xFF0C;&#x7528;on&#x8FD8;&#x662F;bind&#x7ED1;&#x5B9A;&#xFF1F;"><b>29.4. </b>on&#x548C;bind&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;js&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x7684;DOM&#x5143;&#x7D20;&#xFF0C;&#x7528;on&#x8FD8;&#x662F;bind&#x7ED1;&#x5B9A;&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#touch&#x548C;click&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;"><b>29.5. </b>touch&#x548C;click&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;</a></li></ul><li><span class="title-icon "></span><a href="#js&#x5E38;&#x89C1;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;"><b>30. </b>JS&#x5E38;&#x89C1;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;</a></li><ul><li><span class="title-icon "></span><a href="#key-upkey-downkey-press&#x5728;&#x4E0D;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x6709;&#x4F55;&#x4E0D;&#x540C;&#xFF1F;"><b>30.1. </b>key up,key down,key press&#x5728;&#x4E0D;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x6709;&#x4F55;&#x4E0D;&#x540C;&#xFF1F;</a></li></ul><li><span class="title-icon "></span><a href="#&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;-&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;"><b>31. </b>&#x4F55;&#x65F6;&#x4F7F;&#x7528;==&#xFF1F; &#x4F55;&#x65F6;&#x4F7F;&#x7528;===&#xFF1F;</a></li><li><span class="title-icon "></span><a href="#js&#x4E2D;&#x6709;&#x54EA;&#x4E9B;&#x5185;&#x7F6E;&#x51FD;&#x6570;"><b>32. </b>JS&#x4E2D;&#x6709;&#x54EA;&#x4E9B;&#x5185;&#x7F6E;&#x51FD;&#x6570;</a></li><li><span class="title-icon "></span><a href="#js&#x6309;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x533A;&#x5206;&#x53D8;&#x91CF;&#x7C7B;&#x578B;"><b>33. </b>JS&#x6309;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x533A;&#x5206;&#x53D8;&#x91CF;&#x7C7B;&#x578B;</a></li><li><span class="title-icon "></span><a href="#&#x5982;&#x4F55;&#x7406;&#x89E3;json"><b>34. </b>&#x5982;&#x4F55;&#x7406;&#x89E3;JSON</a></li><li><span class="title-icon "></span><a href="#&#x63A8;&#x8350;&#x9605;&#x8BFB;"><b>35. </b>&#x63A8;&#x8350;&#x9605;&#x8BFB;</a></li></ul></div><a href="#&#x4E8B;&#x4EF6;&#x5FAA;&#x73AF;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h2 id="&#x4F7F;&#x7528;&#x539F;&#x751F;js&#x5199;&#x4E2A;js&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;&#xFF1F;"><a name="&#x4F7F;&#x7528;&#x539F;&#x751F;js&#x5199;&#x4E2A;js&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x4F7F;&#x7528;&#x539F;&#x751F;js&#x5199;&#x4E2A;js&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F7F;&#x7528;&#x539F;&#x751F;JS&#x5199;&#x4E2A;JS&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;&#xFF1F;</h2>
+<h1 id="&#x4E8B;&#x4EF6;&#x5FAA;&#x73AF;"><a name="&#x4E8B;&#x4EF6;&#x5FAA;&#x73AF;" class="anchor-navigation-ex-anchor" href="#&#x4E8B;&#x4EF6;&#x5FAA;&#x73AF;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x4E8B;&#x4EF6;&#x5FAA;&#x73AF;</h1>
+<p>JavaScript &#x8FD0;&#x884C;&#x673A;&#x5236;&#x8BE6;&#x89E3;&#xFF1A;&#x518D;&#x8C08;Event Loop&#xFF1A;<a href="http://www.ruanyifeng.com/blog/2014/10/event-loop.html" target="_blank">http://www.ruanyifeng.com/blog/2014/10/event-loop.html</a>
+<a href="https://www.cnblogs.com/dong-xu/p/7000163.html" target="_blank">https://www.cnblogs.com/dong-xu/p/7000163.html</a>
+<a href="https://segmentfault.com/a/1190000010622146" target="_blank">https://segmentfault.com/a/1190000010622146</a></p>
+<h1 id="&#x4E25;&#x683C;&#x6A21;&#x5F0F;"><a name="&#x4E25;&#x683C;&#x6A21;&#x5F0F;" class="anchor-navigation-ex-anchor" href="#&#x4E25;&#x683C;&#x6A21;&#x5F0F;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x4E25;&#x683C;&#x6A21;&#x5F0F;</h1>
+<ul>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F; &#x53D8;&#x91CF;&#x5FC5;&#x987B;&#x5148;&#x58F0;&#x660E;&#xFF0C;&#x76F4;&#x63A5;&#x7ED9;&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#xFF0C;&#x4E0D;&#x4F1A;&#x9690;&#x5F0F;&#x521B;&#x5EFA;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#xFF0C;&#x4E0D;&#x80FD;&#x7528;with,</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E2D; call apply&#x4F20;&#x5165;null undefined&#x4FDD;&#x6301;&#x539F;&#x6837;&#x4E0D;&#x88AB;&#x8F6C;&#x6362;&#x4E3A;window</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0B;, delete&#x8FD0;&#x7B97;&#x7B26;&#x540E;&#x8DDF;&#x968F;&#x975E;&#x6CD5;&#x6807;&#x8BC6;&#x7B26;(&#x5373;delete &#x4E0D;&#x5B58;&#x5728;&#x7684;&#x6807;&#x8BC6;&#x7B26;)&#xFF0C;&#x4F1A;&#x629B;&#x51FA;&#x8BED;&#x6CD5;&#x9519;&#x8BEF;&#xFF1B; &#x975E;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;&#x4F1A;&#x9759;&#x9ED8;&#x5931;&#x8D25;&#x5E76;&#x8FD4;&#x56DE;false</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;&#x5BF9;&#x8C61;&#x76F4;&#x63A5;&#x91CF;&#x4E2D;&#x5B9A;&#x4E49;&#x540C;&#x540D;&#x5C5E;&#x6027;&#x4F1A;&#x629B;&#x51FA;&#x8BED;&#x6CD5;&#x9519;&#x8BEF;&#xFF1B; &#x975E;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0D;&#x4F1A;&#x62A5;&#x9519;</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;&#x51FD;&#x6570;&#x5F62;&#x53C2;&#x5B58;&#x5728;&#x540C;&#x540D;&#x7684;&#xFF0C;&#x629B;&#x51FA;&#x9519;&#x8BEF;&#xFF1B; &#x975E;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0D;&#x4F1A;</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0D;&#x5141;&#x8BB8;&#x516B;&#x8FDB;&#x5236;&#x6574;&#x6570;&#x76F4;&#x63A5;&#x91CF;&#xFF08;&#x5982;&#xFF1A;023&#xFF09;</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E2D;&#xFF0C;arguments&#x5BF9;&#x8C61;&#x662F;&#x4F20;&#x5165;&#x51FD;&#x6570;&#x5185;&#x5B9E;&#x53C2;&#x5217;&#x8868;&#x7684;&#x9759;&#x6001;&#x526F;&#x672C;&#xFF1B;&#x975E;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;arguments&#x5BF9;&#x8C61;&#x91CC;&#x7684;&#x5143;&#x7D20;&#x548C;&#x5BF9;&#x5E94;&#x7684;&#x5B9E;&#x53C2;&#x662F;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x503C;&#x7684;&#x5F15;&#x7528;</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E2D; eval&#x548C;arguments&#x5F53;&#x505A;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x5B83;&#x4EEC;&#x4E0D;&#x80FD;&#x88AB;&#x8D4B;&#x503C;&#x548C;&#x7528;&#x4F5C;&#x53D8;&#x91CF;&#x58F0;&#x660E;</li>
+<li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4F1A;&#x9650;&#x5236;&#x5BF9;&#x8C03;&#x7528;&#x6808;&#x7684;&#x68C0;&#x6D4B;&#x80FD;&#x529B;&#xFF0C;&#x8BBF;&#x95EE;arguments.callee.caller&#x4F1A;&#x629B;&#x51FA;&#x5F02;&#x5E38;</li>
+</ul>
+<h1 id="&#x8C08;&#x8C08;javascript&#x6570;&#x7EC4;&#x6392;&#x5E8F;&#x65B9;&#x6CD5;sort&#x7684;&#x4F7F;&#x7528;&#x91CD;&#x70B9;&#x4ECB;&#x7ECD;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x53CA;&#x5185;&#x90E8;&#x673A;&#x5236;"><a name="&#x8C08;&#x8C08;javascript&#x6570;&#x7EC4;&#x6392;&#x5E8F;&#x65B9;&#x6CD5;sort&#x7684;&#x4F7F;&#x7528;&#x91CD;&#x70B9;&#x4ECB;&#x7ECD;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x53CA;&#x5185;&#x90E8;&#x673A;&#x5236;" class="anchor-navigation-ex-anchor" href="#&#x8C08;&#x8C08;javascript&#x6570;&#x7EC4;&#x6392;&#x5E8F;&#x65B9;&#x6CD5;sort&#x7684;&#x4F7F;&#x7528;&#x91CD;&#x70B9;&#x4ECB;&#x7ECD;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x53CA;&#x5185;&#x90E8;&#x673A;&#x5236;"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x8C08;&#x8C08;javascript&#x6570;&#x7EC4;&#x6392;&#x5E8F;&#x65B9;&#x6CD5;sort()&#x7684;&#x4F7F;&#x7528;,&#x91CD;&#x70B9;&#x4ECB;&#x7ECD;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x53CA;&#x5185;&#x90E8;&#x673A;&#x5236;?</h1>
+<p>&#x8BED;&#x6CD5;&#xFF1A;arrayObject.sort(sortby)</p>
+<p>&#x53C2;&#x6570;sortby&#x53EF;&#x9009;&#xFF0C;&#x89C4;&#x5B9A;&#x6392;&#x5E8F;&#x987A;&#x5E8F;&#xFF0C;&#x5FC5;&#x987B;&#x662F;&#x51FD;&#x6570;</p>
+<p>&#x6CE8;&#xFF1A;&#x5982;&#x679C;&#x8C03;&#x7528;&#x8BE5;&#x65B9;&#x6CD5;&#x662F;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x53C2;&#x6570;&#xFF0C;&#x5C06;&#x6309;&#x5B57;&#x7B26;&#x7F16;&#x7801;&#x7684;&#x987A;&#x5E8F;&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#xFF0C;&#x8981;&#x5B9E;&#x73B0;&#x8FD9;&#x4E00;&#x70B9;&#xFF0C;&#x9996;&#x5148;&#x5E94;&#x628A;&#x6570;&#x7EC4;&#x7684;&#x5143;&#x7D20;&#x90FD;&#x8F6C;&#x6362;&#x6210;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4EE5;&#x4FBF;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x60F3;&#x6309;&#x7167;&#x5176;&#x4ED6;&#x7684;&#x6807;&#x51C6;&#x8FDB;&#x884C;&#x6392;&#x5E8F;&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x4E24;&#x4E2A;&#x6BD4;&#x8F83;&#x51FD;&#x6570;&#xFF0C;&#x8BE5;&#x51FD;&#x6570;&#x8981;&#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x503C;&#xFF0C;&#x7136;&#x540E;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x8BF4;&#x660E;&#x8FD9;&#x4E24;&#x4E2A;&#x503C;&#x7684;&#x76F8;&#x5BF9;&#x6392;&#x5E8F;&#x7684;&#x6570;&#x5B57;&#x3002;&#x6BD4;&#x8F83;&#x51FD;&#x6570;&#x5E94;&#x8BE5;&#x5177;&#x6709;&#x4E24;&#x4E2A;&#x53C2;&#x6570;a&#x548C;b&#xFF0C;&#x5176;&#x8FD4;&#x56DE;&#x503C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>&#x82E5;a&lt;b&#xFF0C;&#x5219;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5C0F;&#x4E8E;0&#x7684;&#x503C;</p>
+<p>&#x82E5;a=b&#xFF0C;&#x5219;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;0</p>
+<p>&#x82E5;a&gt;b&#xFF0C;&#x5219;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5927;&#x4E8E;0&#x7684;&#x503C;</p>
+<h1 id="json&#x548C;jsonp&#x7684;&#x533A;&#x522B;"><a name="json&#x548C;jsonp&#x7684;&#x533A;&#x522B;" class="anchor-navigation-ex-anchor" href="#json&#x548C;jsonp&#x7684;&#x533A;&#x522B;"><i class="fa fa-link" aria-hidden="true"></i></a>4. json&#x548C;jsonp&#x7684;&#x533A;&#x522B;?</h1>
+<ul>
+<li>json&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x4E00;&#x4E32;json&#x683C;&#x5F0F;&#x6570;&#x636E;&#xFF1B;&#x800C;jsonp&#x8FD4;&#x56DE;&#x7684;&#x662F;&#x811A;&#x672C;&#x4EE3;&#x7801;&#xFF08;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x8C03;&#x7528;&#xFF09;</li>
+<li>jsonp&#x7684;&#x5168;&#x540D;&#x53EB;&#x505A;json with padding&#xFF0C;&#x5C31;&#x662F;&#x628A;json&#x5BF9;&#x8C61;&#x7528;&#x7B26;&#x5408;js&#x8BED;&#x6CD5;&#x7684;&#x5F62;&#x5F0F;&#x5305;&#x88F9;&#x8D77;&#x6765;&#x4EE5;&#x4F7F;&#x5176;&#x4ED6;&#x7684;&#x7F51;&#x7AD9;&#x53EF;&#x4EE5;&#x8BF7;&#x6C42;&#x5230;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x5C06;json&#x5C01;&#x88C5;&#x6210;js&#x6587;&#x4EF6;&#x4F20;&#x8FC7;&#x53BB;&#x3002;</li>
+</ul>
+<h1 id="&#x4E3E;&#x4F8B;&#x8BF4;&#x660E;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;"><a name="&#x4E3E;&#x4F8B;&#x8BF4;&#x660E;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;" class="anchor-navigation-ex-anchor" href="#&#x4E3E;&#x4F8B;&#x8BF4;&#x660E;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;"><i class="fa fa-link" aria-hidden="true"></i></a>5. &#x4E3E;&#x4F8B;&#x8BF4;&#x660E;&#x4E00;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;?</h1>
+<p>&#x4E8B;&#x4EF6;&#x59D4;&#x6258;&#x5C31;&#x662F;&#x5229;&#x7528;&#x5192;&#x6CE1;&#x7684;&#x539F;&#x7406;&#xFF0C;&#x628A;&#x4E8B;&#x4EF6;&#x52A0;&#x5230;&#x7236;&#x5143;&#x7D20;&#x6216;&#x7956;&#x5148;&#x5143;&#x7D20;&#x4E0A;&#xFF0C;&#x89E6;&#x53D1;&#x6267;&#x884C;&#x6548;&#x679C;&#x3002;</p>
+<pre><code class="lang-javascript">&lt;ul id=&quot;ul1&quot;&gt;
+    &lt;li&gt;111&lt;/li&gt;
+    &lt;li&gt;222&lt;/li&gt;
+    &lt;li&gt;333&lt;/li&gt;
+    &lt;li&gt;444&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script&gt;
+    window.onload = function () { 
+            var oUl = document.getElementById(&apos;ul1&apos;);
+            oUl.onclick = function (ev) {
+                    var ev = ev || window.event;
+                    var target = ev.target || ev.srcElement;
+                    if(target.nodeName.toLowerCase() == &apos;li&apos;) {
+                            alert(target.innerHTML)
+                    }
+            }
+    }
+&lt;/script&gt;
+</code></pre>
+<h1 id="&#x8BF4;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;"><a name="&#x8BF4;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;" class="anchor-navigation-ex-anchor" href="#&#x8BF4;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;"><i class="fa fa-link" aria-hidden="true"></i></a>6. &#x8BF4;&#x4E0B;&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;</h1>
+<p><strong>&#x95ED;&#x5305;&#x5C31;&#x662F;&#x80FD;&#x591F;&#x8BFB;&#x53D6;&#x5176;&#x4ED6;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x53D8;&#x91CF;&#x7684;&#x51FD;&#x6570;&#x3002;</strong> &#x4F8B;&#x5982;&#x5728;javascript&#x4E2D;&#xFF0C;&#x53EA;&#x6709;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x5B50;&#x51FD;&#x6570;&#x624D;&#x80FD;&#x8BFB;&#x53D6;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#xFF0C;&#x6240;&#x4EE5;&#x95ED;&#x5305;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x6210;&#x201C;&#x5B9A;&#x4E49;&#x5728;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x51FD;&#x6570;&#x201C;&#x3002;&#x5728;&#x672C;&#x8D28;&#x4E0A;&#xFF0C;&#x95ED;&#x5305;&#x662F;&#x5C06;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x548C;&#x51FD;&#x6570;&#x5916;&#x90E8;&#x8FDE;&#x63A5;&#x8D77;&#x6765;&#x7684;&#x6865;&#x6881;&#x3002;</p>
+<p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1537330797292&amp;di=fbd365be6daf689012f27018f53f5a46&amp;imgtype=jpg&amp;src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D1127198622%2C2678786998%26fm%3D214%26gp%3D0.jpg" alt="&#x95ED;&#x5305;"></p>
+<p>&#x95ED;&#x5305;&#x5305;&#x542B;&#x81EA;&#x7531;&#xFF08;&#x672A;&#x7ED1;&#x5B9A;&#x5230;&#x7279;&#x5B9A;&#x5BF9;&#x8C61;&#xFF09;&#x53D8;&#x91CF;&#xFF0C;&#x8FD9;&#x4E9B;&#x53D8;&#x91CF;&#x4E0D;&#x662F;&#x5728;&#x8FD9;&#x4E2A;&#x4EE3;&#x7801;&#x5757;&#x5185;&#x6216;&#x8005;&#x4EFB;&#x4F55;&#x5168;&#x5C40;&#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#xFF0C;&#x800C;&#x662F;&#x5728;&#x5B9A;&#x4E49;&#x4EE3;&#x7801;&#x5757;&#x7684;&#x73AF;&#x5883;&#x4E2D;&#x5B9A;&#x4E49;&#xFF08;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#xFF09;&#x3002;</p>
+<h2 id="&#x95ED;&#x5305;&#x7684;&#x4F5C;&#x7528;"><a name="&#x95ED;&#x5305;&#x7684;&#x4F5C;&#x7528;" class="anchor-navigation-ex-anchor" href="#&#x95ED;&#x5305;&#x7684;&#x4F5C;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>6.1. &#x95ED;&#x5305;&#x7684;&#x4F5C;&#x7528;</h2>
+<h3 id="&#x7528;&#x95ED;&#x5305;&#x6A21;&#x62DF;&#x79C1;&#x6709;&#x65B9;&#x6CD5;"><a name="&#x7528;&#x95ED;&#x5305;&#x6A21;&#x62DF;&#x79C1;&#x6709;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x7528;&#x95ED;&#x5305;&#x6A21;&#x62DF;&#x79C1;&#x6709;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>6.1.1. &#x7528;&#x95ED;&#x5305;&#x6A21;&#x62DF;&#x79C1;&#x6709;&#x65B9;&#x6CD5;</h3>
+<p>&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x4E2D;&#xFF0C;&#x6BD4;&#x5982; Java&#xFF0C;&#x5B83;&#x662F;&#x652F;&#x6301;&#x5C06;&#x65B9;&#x6CD5;&#x58F0;&#x660E;&#x4E3A;&#x79C1;&#x6709;&#x7684;&#xFF0C;&#x5373;&#x5B83;&#x4EEC;&#x53EA;&#x80FD;&#x88AB;&#x540C;&#x4E00;&#x4E2A;&#x7C7B;&#x4E2D;&#x7684;&#x5176;&#x5B83;&#x65B9;&#x6CD5;&#x6240;&#x8C03;&#x7528;&#x3002;</p>
+<p>&#x4F46;&#x662F; <code>JavaScript</code> &#x6CA1;&#x6709;&#x8FD9;&#x79CD;&#x539F;&#x751F;&#x652F;&#x6301;&#xFF0C;&#x600E;&#x4E48;&#x529E;&#x5462;&#xFF01;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x95ED;&#x5305;&#x6765;&#x6A21;&#x62DF;&#x79C1;&#x6709;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x79C1;&#x6709;&#x65B9;&#x6CD5;&#x4E0D;&#x4EC5;&#x4EC5;&#x6709;&#x5229;&#x4E8E;&#x9650;&#x5236;&#x5BF9;&#x4EE3;&#x7801;&#x7684;&#x8BBF;&#x95EE;&#xFF1A;&#x8FD8;&#x63D0;&#x4F9B;&#x4E86;&#x7BA1;&#x7406;&#x5168;&#x5C40;&#x547D;&#x540D;&#x7A7A;&#x95F4;&#x7684;&#x5F3A;&#x5927;&#x80FD;&#x529B;&#xFF0C;&#x907F;&#x514D;&#x975E;&#x6838;&#x5FC3;&#x7684;&#x65B9;&#x6CD5;&#x5F04;&#x4E71;&#x4E86;&#x4EE3;&#x7801;&#x7684;&#x516C;&#x5171;&#x63A5;&#x53E3;&#x90E8;&#x5206;&#x3002;</p>
+<p>&#x5B9E;&#x4F8B;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> Counter = (<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">var</span> privateCounter = <span class="hljs-number">0</span>;
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">changeBy</span>(<span class="hljs-params">val</span>) </span>{
+    privateCounter += val;
+  }
+  <span class="hljs-keyword">return</span> {
+    <span class="hljs-attr">increment</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      changeBy(<span class="hljs-number">1</span>);
+    },
+    <span class="hljs-attr">decrement</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      changeBy(<span class="hljs-number">-1</span>);
+    },
+    <span class="hljs-attr">value</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">return</span> privateCounter;
+    }
+  }   
+})();
+
+<span class="hljs-built_in">console</span>.log(Counter.value()); <span class="hljs-comment">/* logs 0 */</span>
+Counter.increment();
+Counter.increment();
+<span class="hljs-built_in">console</span>.log(Counter.value()); <span class="hljs-comment">/* logs 2 */</span>
+Counter.decrement();
+<span class="hljs-built_in">console</span>.log(Counter.value()); <span class="hljs-comment">/* logs 1 */</span>
+</code></pre>
+<blockquote>
+<p>&#x4EE5;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x4F7F;&#x7528;&#x95ED;&#x5305;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x8BB8;&#x591A;&#x4E0E;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#x76F8;&#x5173;&#x7684;&#x597D;&#x5904; &#x2014;&#x2014; &#x7279;&#x522B;&#x662F;&#x6570;&#x636E;&#x9690;&#x85CF;&#x548C;&#x5C01;&#x88C5;&#x3002;</p>
+</blockquote>
+<h3 id="&#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x521B;&#x5EFA;&#x95ED;&#x5305;&#xFF1A;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x9519;&#x8BEF;"><a name="&#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x521B;&#x5EFA;&#x95ED;&#x5305;&#xFF1A;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x9519;&#x8BEF;" class="anchor-navigation-ex-anchor" href="#&#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x521B;&#x5EFA;&#x95ED;&#x5305;&#xFF1A;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x9519;&#x8BEF;"><i class="fa fa-link" aria-hidden="true"></i></a>6.1.2. &#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x521B;&#x5EFA;&#x95ED;&#x5305;&#xFF1A;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x9519;&#x8BEF;</h3>
+<p>&#x5728; <code>ECMAScript 2015</code> &#x5F15;&#x5165; <code>let</code> &#x5173;&#x952E;&#x5B57; &#x4E4B;&#x524D;&#xFF0C;&#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x6709;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x7684;&#x95ED;&#x5305;&#x521B;&#x5EFA;&#x95EE;&#x9898;&#x3002;&#x53C2;&#x8003;&#x4E0B;&#x9762;&#x7684;&#x793A;&#x4F8B;&#xFF1A;</p>
+<p>&#x770B;&#x4E0B;&#x4E0B;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;help&quot;</span>&gt;</span>Helpful notes will appear here<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>E-mail: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;email&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;email&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Name: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;name&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;name&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Age: <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;age&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;age&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">showHelp</span>(<span class="hljs-params">help</span>) </span>{
+  <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;help&apos;</span>).innerHTML = help;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setupHelp</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">var</span> helpText = [
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;email&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your e-mail address&apos;</span>},
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;name&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your full name&apos;</span>},
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;age&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your age (you must be over 16)&apos;</span>}
+    ];
+
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; helpText.length; i++) {
+    <span class="hljs-keyword">var</span> item = helpText[i];
+    <span class="hljs-built_in">document</span>.getElementById(item.id).onfocus = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      showHelp(item.help);
+    }
+  }
+}
+
+setupHelp();
+</code></pre>
+<p>&#x8FD0;&#x884C;&#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#x540E;&#xFF0C;&#x60A8;&#x4F1A;&#x53D1;&#x73B0;&#x5B83;&#x6CA1;&#x6709;&#x8FBE;&#x5230;&#x60F3;&#x8981;&#x7684;&#x6548;&#x679C;&#x3002;&#x65E0;&#x8BBA;&#x7126;&#x70B9;&#x5728;&#x54EA;&#x4E2A;input&#x4E0A;&#xFF0C;&#x663E;&#x793A;&#x7684;&#x90FD;&#x662F;&#x5173;&#x4E8E;&#x5E74;&#x9F84;&#x7684;&#x4FE1;&#x606F;&#x3002;</p>
+<p>&#x539F;&#x56E0;&#x662F;&#x8D4B;&#x503C;&#x7ED9; onfocus &#x7684;&#x662F;&#x95ED;&#x5305;&#x3002;&#x8FD9;&#x4E9B;&#x95ED;&#x5305;&#x662F;&#x7531;&#x4ED6;&#x4EEC;&#x7684;&#x51FD;&#x6570;&#x5B9A;&#x4E49;&#x548C;&#x5728; setupHelp &#x4F5C;&#x7528;&#x57DF;&#x4E2D;&#x6355;&#x83B7;&#x7684;&#x73AF;&#x5883;&#x6240;&#x7EC4;&#x6210;&#x7684;&#x3002;&#x8FD9;&#x4E09;&#x4E2A;&#x95ED;&#x5305;&#x5728;&#x5FAA;&#x73AF;&#x4E2D;&#x88AB;&#x521B;&#x5EFA;&#xFF0C;&#x4F46;&#x4ED6;&#x4EEC;&#x5171;&#x4EAB;&#x4E86;&#x540C;&#x4E00;&#x4E2A;&#x8BCD;&#x6CD5;&#x4F5C;&#x7528;&#x57DF;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x4F5C;&#x7528;&#x57DF;&#x4E2D;&#x5B58;&#x5728;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;item&#x3002;&#x5F53;onfocus&#x7684;&#x56DE;&#x8C03;&#x6267;&#x884C;&#x65F6;&#xFF0C;item.help&#x7684;&#x503C;&#x88AB;&#x51B3;&#x5B9A;&#x3002;&#x7531;&#x4E8E;&#x5FAA;&#x73AF;&#x5728;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x4E4B;&#x524D;&#x65E9;&#x5DF2;&#x6267;&#x884C;&#x5B8C;&#x6BD5;&#xFF0C;&#x53D8;&#x91CF;&#x5BF9;&#x8C61;item&#xFF08;&#x88AB;&#x4E09;&#x4E2A;&#x95ED;&#x5305;&#x6240;&#x5171;&#x4EAB;&#xFF09;&#x5DF2;&#x7ECF;&#x6307;&#x5411;&#x4E86;helpText&#x7684;&#x6700;&#x540E;&#x4E00;&#x9879;&#x3002;</p>
+<p><strong>&#x65B9;&#x6CD5;&#x4E00;&#xFF1A; &#x89E3;&#x51B3;&#x7684;&#x529E;&#x6CD5;&#x662F;&#x4F7F;&#x7528;&#x533F;&#x540D;&#x95ED;&#x5305;&#xFF1A;</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">showHelp</span>(<span class="hljs-params">help</span>) </span>{
+  <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;help&apos;</span>).innerHTML = help;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setupHelp</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">var</span> helpText = [
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;email&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your e-mail address&apos;</span>},
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;name&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your full name&apos;</span>},
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;age&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your age (you must be over 16)&apos;</span>}
+    ];
+
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; helpText.length; i++) {
+    (<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+       <span class="hljs-keyword">var</span> item = helpText[i];
+       <span class="hljs-built_in">document</span>.getElementById(item.id).onfocus = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+         showHelp(item.help);
+       }
+    })(); <span class="hljs-comment">// &#x9A6C;&#x4E0A;&#x628A;&#x5F53;&#x524D;&#x5FAA;&#x73AF;&#x9879;&#x7684;item&#x4E0E;&#x4E8B;&#x4EF6;&#x56DE;&#x8C03;&#x76F8;&#x5173;&#x8054;&#x8D77;&#x6765;</span>
+  }
+}
+
+setupHelp();
+</code></pre>
+<p><strong>&#x65B9;&#x6CD5;&#x4E8C;&#xFF1A;&#x4F7F;&#x7528;let</strong>
+&#x907F;&#x514D;&#x4F7F;&#x7528;&#x8FC7;&#x591A;&#x7684;&#x95ED;&#x5305;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;let&#x5173;&#x952E;&#x8BCD;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">showHelp</span>(<span class="hljs-params">help</span>) </span>{
+  <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;help&apos;</span>).innerHTML = help;
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setupHelp</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">var</span> helpText = [
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;email&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your e-mail address&apos;</span>},
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;name&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your full name&apos;</span>},
+      {<span class="hljs-string">&apos;id&apos;</span>: <span class="hljs-string">&apos;age&apos;</span>, <span class="hljs-string">&apos;help&apos;</span>: <span class="hljs-string">&apos;Your age (you must be over 16)&apos;</span>}
+    ];
+
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; helpText.length; i++) {
+    <span class="hljs-keyword">let</span> item = helpText[i];
+    <span class="hljs-built_in">document</span>.getElementById(item.id).onfocus = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      showHelp(item.help);
+    }
+  }
+}
+
+setupHelp();
+</code></pre>
+<p>&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#x4F7F;&#x7528;let&#x800C;&#x4E0D;&#x662F;var&#xFF0C;&#x56E0;&#x6B64;&#x6BCF;&#x4E2A;&#x95ED;&#x5305;&#x90FD;&#x7ED1;&#x5B9A;&#x4E86;&#x5757;&#x4F5C;&#x7528;&#x57DF;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x4E0D;&#x518D;&#x9700;&#x8981;&#x989D;&#x5916;&#x7684;&#x95ED;&#x5305;&#x3002;</p>
+<h2 id="&#x6027;&#x80FD;&#x8003;&#x91CF;"><a name="&#x6027;&#x80FD;&#x8003;&#x91CF;" class="anchor-navigation-ex-anchor" href="#&#x6027;&#x80FD;&#x8003;&#x91CF;"><i class="fa fa-link" aria-hidden="true"></i></a>6.2. &#x6027;&#x80FD;&#x8003;&#x91CF;</h2>
+<p>&#x5982;&#x679C;&#x4E0D;&#x662F;&#x67D0;&#x4E9B;&#x7279;&#x5B9A;&#x4EFB;&#x52A1;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x95ED;&#x5305;&#xFF0C;&#x5728;&#x5176;&#x5B83;&#x51FD;&#x6570;&#x4E2D;&#x521B;&#x5EFA;&#x51FD;&#x6570;&#x662F;&#x4E0D;&#x660E;&#x667A;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x95ED;&#x5305;&#x5728;&#x5904;&#x7406;&#x901F;&#x5EA6;&#x548C;&#x5185;&#x5B58;&#x6D88;&#x8017;&#x65B9;&#x9762;&#x5BF9;&#x811A;&#x672C;&#x6027;&#x80FD;&#x5177;&#x6709;&#x8D1F;&#x9762;&#x5F71;&#x54CD;&#x3002;</p>
+<p>&#x4F8B;&#x5982;&#xFF0C;&#x5728;&#x521B;&#x5EFA;&#x65B0;&#x7684;&#x5BF9;&#x8C61;&#x6216;&#x8005;&#x7C7B;&#x65F6;&#xFF0C;&#x65B9;&#x6CD5;&#x901A;&#x5E38;&#x5E94;&#x8BE5;&#x5173;&#x8054;&#x4E8E;&#x5BF9;&#x8C61;&#x7684;&#x539F;&#x578B;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5B9A;&#x4E49;&#x5230;&#x5BF9;&#x8C61;&#x7684;&#x6784;&#x9020;&#x5668;&#x4E2D;&#x3002;&#x539F;&#x56E0;&#x662F;&#x8FD9;&#x5C06;&#x5BFC;&#x81F4;&#x6BCF;&#x6B21;&#x6784;&#x9020;&#x5668;&#x88AB;&#x8C03;&#x7528;&#x65F6;&#xFF0C;&#x65B9;&#x6CD5;&#x90FD;&#x4F1A;&#x88AB;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x4E00;&#x6B21;&#xFF08;&#x4E5F;&#x5C31;&#x662F;&#xFF0C;&#x6BCF;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x521B;&#x5EFA;&#xFF09;&#x3002;</p>
+<p>&#x8003;&#x8651;&#x4EE5;&#x4E0B;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">MyObject</span>(<span class="hljs-params">name, message</span>) </span>{
+  <span class="hljs-keyword">this</span>.name = name.toString();
+  <span class="hljs-keyword">this</span>.message = message.toString();
+  <span class="hljs-keyword">this</span>.getName = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.name;
+  };
+
+  <span class="hljs-keyword">this</span>.getMessage = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.message;
+  };
+}
+</code></pre>
+<p>&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x5E76;&#x672A;&#x5229;&#x7528;&#x5230;&#x95ED;&#x5305;&#x7684;&#x597D;&#x5904;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x6210;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">MyObject</span>(<span class="hljs-params">name, message</span>) </span>{
+  <span class="hljs-keyword">this</span>.name = name.toString();
+  <span class="hljs-keyword">this</span>.message = message.toString();
+}
+
+MyObject.prototype = {
+  <span class="hljs-attr">getName</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.name;
+  },
+  <span class="hljs-attr">getMessage</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.message;
+  }
+};
+</code></pre>
+<p>&#x4F46;&#x6211;&#x4EEC;&#x4E0D;&#x5EFA;&#x8BAE;&#x91CD;&#x65B0;&#x5B9A;&#x4E49;&#x539F;&#x578B;&#x3002;&#x53EF;&#x6539;&#x6210;&#x5982;&#x4E0B;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">MyObject</span>(<span class="hljs-params">name, message</span>) </span>{
+  <span class="hljs-keyword">this</span>.name = name.toString();
+  <span class="hljs-keyword">this</span>.message = message.toString();
+}
+MyObject.prototype.getName = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.name;
+};
+MyObject.prototype.getMessage = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.message;
+};
+</code></pre>
+<p>&#x5728;&#x524D;&#x9762;&#x7684;&#x4E24;&#x4E2A;&#x793A;&#x4F8B;&#x4E2D;&#xFF0C;&#x7EE7;&#x627F;&#x7684;&#x539F;&#x578B;&#x53EF;&#x4EE5;&#x4E3A;&#x6240;&#x6709;&#x5BF9;&#x8C61;&#x5171;&#x4EAB;&#xFF0C;&#x4E0D;&#x5FC5;&#x5728;&#x6BCF;&#x4E00;&#x6B21;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x65F6;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x3002;</p>
+<h1 id="&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;&#xFF1F;&#x95ED;&#x5305;&#x6709;&#x4F55;&#x4F18;&#x7F3A;&#x70B9;&#xFF1F;"><a name="&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;&#xFF1F;&#x95ED;&#x5305;&#x6709;&#x4F55;&#x4F18;&#x7F3A;&#x70B9;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;&#xFF1F;&#x95ED;&#x5305;&#x6709;&#x4F55;&#x4F18;&#x7F3A;&#x70B9;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>7. &#x4EC0;&#x4E48;&#x662F;&#x95ED;&#x5305;&#xFF1F;&#x95ED;&#x5305;&#x6709;&#x4F55;&#x4F18;&#x7F3A;&#x70B9;&#xFF1F;</h1>
+<p>&#x95ED;&#x5305;&#xFF1A;</p>
+<ul>
+<li>&#x80FD;&#x591F;&#x8BFB;&#x53D6;&#x5176;&#x4ED6;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x53D8;&#x91CF;&#x7684;&#x51FD;&#x6570;&#x3002;&#xFF08;&#x5E94;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x8981;&#x83B7;&#x53D6;&#x67D0;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#xFF09;</li>
+</ul>
+<p>&#x4F18;&#x70B9;&#xFF1A;</p>
+<ul>
+<li>&#x4FDD;&#x62A4;&#x51FD;&#x6570;&#x5185;&#x7684;&#x53D8;&#x91CF;&#x5B89;&#x5168;,&#x52A0;&#x5F3A;&#x4E86;&#x5C01;&#x88C5;&#x6027; </li>
+<li>&#x80FD;&#x591F;&#x8BFB;&#x53D6;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x53D8;&#x91CF;</li>
+<li>&#x8BA9;&#x8FD9;&#x4E9B;&#x53D8;&#x91CF;&#x4E00;&#x76F4;&#x5B58;&#x5728;&#x4E8E;&#x5185;&#x5B58;&#x4E2D;&#xFF0C;&#x4E0D;&#x4F1A;&#x5728;&#x8C03;&#x7528;&#x7ED3;&#x675F;&#x540E;&#xFF0C;&#x88AB;&#x5783;&#x573E;&#x56DE;&#x6536;&#x673A;&#x5236;&#x56DE;&#x6536;</li>
+</ul>
+<p>&#x7F3A;&#x70B9;&#xFF1A;</p>
+<ul>
+<li>&#x95ED;&#x5305;&#x6709;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x4E25;&#x91CD;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x5185;&#x5B58;&#x6D6A;&#x8D39;&#x95EE;&#x9898;&#xFF0C;&#x8FD9;&#x4E2A;&#x5185;&#x5B58;&#x6D6A;&#x8D39;&#x4E0D;&#x4EC5;&#x4EC5;&#x56E0;&#x4E3A;&#x5B83;&#x5E38;&#x9A7B;&#x5185;&#x5B58;&#xFF0C;&#x66F4;&#x91CD;&#x8981;&#x7684;&#x662F;&#xFF0C;&#x5BF9;&#x95ED;&#x5305;&#x7684;&#x4F7F;&#x7528;&#x4E0D;&#x5F53;&#x4F1A;&#x9020;&#x6210;&#x65E0;&#x6548;&#x5185;&#x5B58;&#x7684;&#x4EA7;&#x751F;&#x3002;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x662F;&#xFF0C;&#x9000;&#x51FA;&#x51FD;&#x6570;&#x4E4B;&#x524D;&#xFF0C;&#x5C06;&#x4E0D;&#x4F7F;&#x7528;&#x7684;&#x5C40;&#x90E8;&#x53D8;&#x91CF;&#x5220;&#x9664;&#x3002;</li>
+</ul>
+<h1 id="&#x539F;&#x578B;&#x4E0E;&#x539F;&#x578B;&#x94FE;"><a name="&#x539F;&#x578B;&#x4E0E;&#x539F;&#x578B;&#x94FE;" class="anchor-navigation-ex-anchor" href="#&#x539F;&#x578B;&#x4E0E;&#x539F;&#x578B;&#x94FE;"><i class="fa fa-link" aria-hidden="true"></i></a>8. &#x539F;&#x578B;&#x4E0E;&#x539F;&#x578B;&#x94FE;</h1>
+<h2 id="&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;"><a name="&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;" class="anchor-navigation-ex-anchor" href="#&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;"><i class="fa fa-link" aria-hidden="true"></i></a>8.1. &#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;</h2>
+<ul>
+<li><p>&#x4EFB;&#x4F55;&#x5BF9;&#x8C61;&#x90FD;&#x6709;&#x4E00;&#x4E2A;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#xFF0C;&#x8FD9;&#x4E2A;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x7531;&#x5BF9;&#x8C61;&#x7684;&#x5185;&#x7F6E;&#x5C5E;&#x6027;<code>_proto_</code>&#x6307;&#x5411;&#x5B83;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;<code>prototype</code>&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x4EFB;&#x4F55;&#x5BF9;&#x8C61;&#x90FD;&#x662F;&#x7531;&#x4E00;&#x4E2A;&#x6784;&#x9020;&#x51FD;&#x6570;&#x521B;&#x5EFA;&#x7684;&#x3002;</p>
+</li>
+<li><p>&#x4F46;&#x662F;&#x4E0D;&#x662F;&#x6BCF;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x90FD;&#x6709;<code>prototype</code>&#xFF0C;&#x53EA;&#x6709;&#x65B9;&#x6CD5;&#x624D;&#x6709;<code>prototype</code>&#x3002;</p>
+</li>
+</ul>
+<h2 id="&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;&#x94FE;"><a name="&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;&#x94FE;" class="anchor-navigation-ex-anchor" href="#&#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;&#x94FE;"><i class="fa fa-link" aria-hidden="true"></i></a>8.2. &#x4EC0;&#x4E48;&#x662F;&#x539F;&#x578B;&#x94FE;</h2>
+<ul>
+<li>&#x539F;&#x578B;&#x94FE;&#x7684;&#x6838;&#x5FC3;&#x5C31;&#x662F;&#x4F9D;&#x8D56;&#x5BF9;&#x8C61;&#x7684;<code>_proto_</code>&#x7684;&#x6307;&#x5411;&#xFF0C;&#x5F53;&#x81EA;&#x8EAB;&#x4E0D;&#x5B58;&#x5728;&#x7684;&#x5C5E;&#x6027;&#x65F6;&#xFF0C;&#x5C31;&#x4E00;&#x5C42;&#x5C42;&#x7684;&#x6252;&#x51FA;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x76F4;&#x81F3;&#x5230;<code>Object</code>&#x65F6;&#xFF0C;&#x5C31;&#x6CA1;&#x6709;<code>_proto_</code>&#x6307;&#x5411;&#x4E86;&#x3002;</li>
+</ul>
+<h2 id="&#x5982;&#x4F55;&#x5206;&#x6790;&#x539F;&#x578B;&#x94FE;"><a name="&#x5982;&#x4F55;&#x5206;&#x6790;&#x539F;&#x578B;&#x94FE;" class="anchor-navigation-ex-anchor" href="#&#x5982;&#x4F55;&#x5206;&#x6790;&#x539F;&#x578B;&#x94FE;"><i class="fa fa-link" aria-hidden="true"></i></a>8.3. &#x5982;&#x4F55;&#x5206;&#x6790;&#x539F;&#x578B;&#x94FE;?</h2>
+<ul>
+<li>&#x56E0;&#x4E3A;<code>_proto_</code>&#x5B9E;&#x8D28;&#x627E;&#x7684;&#x662F;<code>prototype</code>&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x53EA;&#x8981;&#x627E;&#x8FD9;&#x4E2A;&#x94FE;&#x6761;&#x4E0A;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;<code>prototype</code>&#x3002;&#x5176;&#x4E2D;<code>Object.prototype</code>&#x662F;&#x6CA1;&#x6709;<code>_proto_</code>&#x5C5E;&#x6027;&#x7684;&#xFF0C;&#x5B83;==<code>null</code>&#x3002;</li>
+</ul>
+<h1 id="&#x4EC0;&#x4E48;&#x662F;&#x56DE;&#x8C03;"><a name="&#x4EC0;&#x4E48;&#x662F;&#x56DE;&#x8C03;" class="anchor-navigation-ex-anchor" href="#&#x4EC0;&#x4E48;&#x662F;&#x56DE;&#x8C03;"><i class="fa fa-link" aria-hidden="true"></i></a>9. &#x4EC0;&#x4E48;&#x662F;&#x56DE;&#x8C03;</h1>
+<ul>
+<li>&#x4E3A;&#x54CD;&#x5E94;&#x4E8B;&#x4EF6;&#x6240;&#x6267;&#x884C;&#x7684;&#x51FD;&#x6570;</li>
+</ul>
+<h1 id="&#x5982;&#x4F55;&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;"><a name="&#x5982;&#x4F55;&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;" class="anchor-navigation-ex-anchor" href="#&#x5982;&#x4F55;&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;"><i class="fa fa-link" aria-hidden="true"></i></a>10. &#x5982;&#x4F55;&#x83B7;&#x53D6;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x503C;</h1>
+<p>element.getAttribute(&apos;&#x5C5E;&#x6027;&#x540D;&#x79F0;&apos;)</p>
+<h1 id="localstorage&#x548C;sessionstorage&#x662F;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;"><a name="localstorage&#x548C;sessionstorage&#x662F;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;" class="anchor-navigation-ex-anchor" href="#localstorage&#x548C;sessionstorage&#x662F;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;"><i class="fa fa-link" aria-hidden="true"></i></a>11. localstorage&#x548C;sessionstorage&#x662F;&#x4EC0;&#x4E48;?&#x533A;&#x522B;&#x662F;&#x4EC0;&#x4E48;?</h1>
+<ul>
+<li><p>localstorage&#x548C;sessionstorage&#x4E00;&#x6837;&#x90FD;&#x662F;&#x7528;&#x6765;&#x5B58;&#x50A8;&#x5BA2;&#x6237;&#x7AEF;&#x4E34;&#x65F6;&#x4FE1;&#x606F;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x4ED6;&#x4EEC;&#x5747;&#x53EA;&#x80FD;&#x5B58;&#x50A8;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x5BF9;&#x8C61;</p>
+</li>
+<li><p>localstorage&#x751F;&#x547D;&#x5468;&#x671F;&#x662F;&#x6C38;&#x4E45;&#x7684;&#xFF0C;&#x8FD9;&#x610F;&#x5473;&#x7740;&#x9664;&#x975E;&#x7528;&#x6237;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x63D0;&#x4F9B;&#x7684;UI&#x4E0A;&#x6E05;&#x9664;localstorage&#x4FE1;&#x606F;&#xFF0C;&#x5426;&#x5219;&#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#x5C06;&#x6C38;&#x8FDC;&#x5B58;&#x5728;&#x3002;</p>
+</li>
+<li><p>sessionstorage&#x751F;&#x547D;&#x5468;&#x671F;&#x4E3A;&#x5F53;&#x524D;&#x7A97;&#x53E3;&#x6216;&#x6807;&#x7B7E;&#xFF0C;&#x4E00;&#x65E6;&#x7A97;&#x53E3;&#x6216;&#x6807;&#x7B7E;&#x88AB;&#x6C38;&#x4E45;&#x5173;&#x95ED;&#x4E86;&#xFF0C;&#x90A3;&#x4E48;&#x6240;&#x6709;&#x901A;&#x8FC7;sessionstorage&#x5B58;&#x50A8;&#x7684;&#x6570;&#x636E;&#x4E5F;&#x5C06;&#x88AB;&#x6E05;&#x7A7A;&#x3002;</p>
+</li>
+<li><p>&#x4E0D;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x65E0;&#x6CD5;&#x5171;&#x4EAB;localstorage&#x6216;sessionstorage&#x4E2D;&#x7684;&#x4FE1;&#x606F;&#x3002;&#x76F8;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x4E0D;&#x540C;&#x9875;&#x9762;&#x53EF;&#x4EE5;&#x5171;&#x4EAB;&#x76F8;&#x540C;&#x7684;localstorage&#xFF08;&#x9875;&#x9762;&#x5C5E;&#x4E8E;&#x76F8;&#x540C;&#x7684;&#x57DF;&#x540D;&#x548C;&#x7AEF;&#x53E3;&#xFF09;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x540C;&#x9875;&#x9762;&#x6216;&#x6807;&#x7B7E;&#x95F4;&#x65E0;&#x6CD5;&#x5171;&#x4EAB;sessionstorage&#x3002;&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x9875;&#x9762;&#x53CA;&#x6807;&#x7B7E;&#x4EC5;&#x6307;&#x9876;&#x7EA7;&#x7A97;&#x53E3;&#xFF0C;&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x6807;&#x7B7E;&#x9875;&#x5305;&#x542B;&#x591A;&#x4E2A;iframe&#x6807;&#x7B7E;&#x4ED6;&#x4EEC;&#x5C5E;&#x4E8E;&#x540C;&#x6E90;&#x9875;&#x9762;&#xFF0C;&#x90A3;&#x4E48;&#x4ED6;&#x4EEC;&#x4E4B;&#x95F4;&#x662F;&#x53EF;&#x4EE5;&#x5171;&#x4EAB;sessionstorage&#x7684;&#x3002;</p>
+</li>
+</ul>
+<h1 id="&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x548C;&#x5192;&#x6CE1;&#xFF1F;&#x5982;&#x4F55;&#x963B;&#x6B62;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#xFF1F;&#xFF08;js&#x539F;&#x751F;&#x548C;jquery&#x4E24;&#x79CD;&#xFF09;"><a name="&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x548C;&#x5192;&#x6CE1;&#xFF1F;&#x5982;&#x4F55;&#x963B;&#x6B62;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#xFF1F;&#xFF08;js&#x539F;&#x751F;&#x548C;jquery&#x4E24;&#x79CD;&#xFF09;" class="anchor-navigation-ex-anchor" href="#&#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x548C;&#x5192;&#x6CE1;&#xFF1F;&#x5982;&#x4F55;&#x963B;&#x6B62;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#xFF1F;&#xFF08;js&#x539F;&#x751F;&#x548C;jquery&#x4E24;&#x79CD;&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>12. &#x4EC0;&#x4E48;&#x662F;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x548C;&#x5192;&#x6CE1;&#xFF1F;&#x5982;&#x4F55;&#x963B;&#x6B62;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#xFF1F;&#xFF08;js&#x539F;&#x751F;&#x548C;jQuery&#x4E24;&#x79CD;&#xFF09;</h1>
+<ul>
+<li>IE&#x4F7F;&#x7528;&#x7684;&#x662F;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#xFF0C;&#x5176;&#x4ED6;&#x6D4F;&#x89C8;&#x5668;&#x5219;&#x662F;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x3002;</li>
+<li>&#x4E8B;&#x4EF6;&#x6355;&#x83B7; &#x81EA;&#x4E0A;&#x800C;&#x4E0B;&#x7684;&#x53BB;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;&#xFF1B;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#x662F;&#x81EA;&#x4E0B;&#x800C;&#x4E0A;&#x7684;&#x53BB;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;&#x3002;</li>
+<li>&#x7ED1;&#x5B9A;&#x4E8B;&#x4EF6;&#x65B9;&#x6CD5;&#x7684;&#x7B2C;&#x4E09;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x5C31;&#x662F;&#x63A7;&#x5236;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x987A;&#x5E8F;&#x662F;&#x5426;&#x4E3A;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x3002;true,&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#xFF1B;false,&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#x3002;&#x9ED8;&#x8BA4;false,&#x5373;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#x3002;</li>
+<li>Jquery&#x7684;e.stopPropagation&#x4F1A;&#x963B;&#x6B62;&#x5192;&#x6CE1;&#xFF0C;&#x610F;&#x601D;&#x5C31;&#x662F;&#x5230;&#x6211;&#x4E3A;&#x6B62;&#xFF0C;&#x6211;&#x7684;&#x7239;&#x548C;&#x7956;&#x5B97;&#x7684;&#x4E8B;&#x4EF6;&#x5C31;&#x4E0D;&#x8981;&#x89E6;&#x53D1;&#x4E86;&#x3002;</li>
+</ul>
+<p>&#x5148;&#x4E0A;&#x7ED3;&#x8BBA;&#xFF1A;&#x4ED6;&#x4EEC;&#x662F;&#x63CF;&#x8FF0;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x65F6;&#x5E8F;&#x95EE;&#x9898;&#x7684;&#x672F;&#x8BED;&#x3002;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x6307;&#x7684;&#x662F;&#x4ECE;document&#x5230;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;&#x7684;&#x90A3;&#x4E2A;&#x8282;&#x70B9;&#xFF0C;&#x5373;&#x81EA;&#x4E0A;&#x800C;&#x4E0B;&#x7684;&#x53BB;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;&#x3002;&#x76F8;&#x53CD;&#x7684;&#xFF0C;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#x662F;&#x81EA;&#x4E0B;&#x800C;&#x4E0A;&#x7684;&#x53BB;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;&#x3002;&#x7ED1;&#x5B9A;&#x4E8B;&#x4EF6;&#x65B9;&#x6CD5;&#x7684;&#x7B2C;&#x4E09;&#x4E2A;&#x53C2;&#x6570;&#xFF0C;&#x5C31;&#x662F;&#x63A7;&#x5236;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#x987A;&#x5E8F;&#x662F;&#x5426;&#x4E3A;&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#x3002;true,&#x4E8B;&#x4EF6;&#x6355;&#x83B7;&#xFF1B;false,&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#x3002;&#x9ED8;&#x8BA4;false,&#x5373;&#x4E8B;&#x4EF6;&#x5192;&#x6CE1;&#x3002;Jquery&#x7684;e.stopPropagation&#x4F1A;&#x963B;&#x6B62;&#x5192;&#x6CE1;&#xFF0C;&#x610F;&#x601D;&#x5C31;&#x662F;&#x5230;&#x6211;&#x4E3A;&#x6B62;&#xFF0C;&#x6211;&#x7684;&#x7239;&#x548C;&#x7956;&#x5B97;&#x7684;&#x4E8B;&#x4EF6;&#x5C31;&#x4E0D;&#x8981;&#x89E6;&#x53D1;&#x4E86;&#x3002;</p>
+<p><a href="https://www.cnblogs.com/cboydream/archive/2017/01/24/6296896.html" target="_blank">https://www.cnblogs.com/cboydream/archive/2017/01/24/6296896.html</a></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x539F;&#x751F;&#x5199;&#x6CD5;</span>
+<span class="hljs-keyword">var</span> $item = <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;item&apos;</span>);
+
+$item.onclick = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">e</span>) </span>{<span class="hljs-comment">//&#x963B;&#x6B62;&#x5192;&#x6CE1;</span>
+    <span class="hljs-keyword">if</span> (e) {
+      e.stopPropagation();
+      e.preventDefault();
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-built_in">window</span>.event.returnValue = <span class="hljs-literal">false</span>;
+      <span class="hljs-built_in">window</span>.event.cancelBubble = <span class="hljs-literal">true</span>;
+    }
+}
+</code></pre>
+<h1 id="js&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#xFF0C;&#x81F3;&#x5C11;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x3002;"><a name="js&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#xFF0C;&#x81F3;&#x5C11;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x3002;" class="anchor-navigation-ex-anchor" href="#js&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#xFF0C;&#x81F3;&#x5C11;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x3002;"><i class="fa fa-link" aria-hidden="true"></i></a>13. js&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#xFF0C;&#x81F3;&#x5C11;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x3002;</h1>
+<h1 id="&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x4E8B;&#x4EF6;&#x7A7F;&#x900F;&#xFF0C;&#x53CA;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x3002;"><a name="&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x4E8B;&#x4EF6;&#x7A7F;&#x900F;&#xFF0C;&#x53CA;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x3002;" class="anchor-navigation-ex-anchor" href="#&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x4E8B;&#x4EF6;&#x7A7F;&#x900F;&#xFF0C;&#x53CA;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x3002;"><i class="fa fa-link" aria-hidden="true"></i></a>14. &#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x4E8B;&#x4EF6;&#x7A7F;&#x900F;&#xFF0C;&#x53CA;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x3002;</h1>
+<h1 id="&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x662F;&#x6570;&#x7EC4;"><a name="&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x662F;&#x6570;&#x7EC4;" class="anchor-navigation-ex-anchor" href="#&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x662F;&#x6570;&#x7EC4;"><i class="fa fa-link" aria-hidden="true"></i></a>15. &#x7528;&#x4E09;&#x79CD;&#x65B9;&#x5F0F;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#x662F;&#x5426;&#x662F;&#x6570;&#x7EC4;</h1>
+<h1 id="js-&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;"><a name="js-&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;" class="anchor-navigation-ex-anchor" href="#js-&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;"><i class="fa fa-link" aria-hidden="true"></i></a>16. js &#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5224;&#x65AD;&#x53D8;&#x91CF;&#x7C7B;&#x578B;</h1>
+<pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">varType</span>(<span class="hljs-params">v</span>)</span>{
+ <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> v=== <span class="hljs-string">&quot;object&quot;</span> ){
+  <span class="hljs-keyword">if</span> (v=== <span class="hljs-literal">null</span> ) <span class="hljs-keyword">return</span> <span class="hljs-string">&apos;null&apos;</span> ;
+  <span class="hljs-keyword">if</span> (v. constructor )
+   <span class="hljs-keyword">return</span> (v. constructor .toString()).match(<span class="hljs-regexp">/(?: )[/w/$]+/</span>)[ <span class="hljs-number">0</span> ];
+  <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> typeof2=== <span class="hljs-string">&apos;undefined&apos;</span> &amp;&amp; <span class="hljs-built_in">window</span> .execScript){
+   <span class="hljs-built_in">window</span> .execScript( <span class="hljs-string">&apos;Function vbsTypeName(o):vbsTypeName=TypeName(o):End Function&apos;</span> , <span class="hljs-string">&apos;vbscript&apos;</span> );
+   <span class="hljs-built_in">window</span> .execScript( <span class="hljs-string">&apos;function typeof2(o){return vbsTypeName(o)}&apos;</span> , <span class="hljs-string">&apos;jscript&apos;</span> );
+  }
+  <span class="hljs-keyword">if</span> ( <span class="hljs-keyword">typeof</span> typeof2!== <span class="hljs-string">&apos;undefined&apos;</span> ){
+   <span class="hljs-keyword">return</span> typeof2(v);
+  }
+  <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;object&quot;</span> ;
+ }
+ <span class="hljs-keyword">return</span> <span class="hljs-keyword">typeof</span> v;
+}
+<span class="hljs-comment">//&#x5BF9;&#x4E8E;&#x666E;&#x901A;js&#x5E38;&#x91CF;&#x548C;js&#x5BF9;&#x8C61;&#xFF0C;&#x5404;&#x6D4F;&#x89C8;&#x5668;&#x662F;&#x57FA;&#x672C;&#x4E00;&#x81F4;&#x7684;</span>
+alert (varType()); <span class="hljs-comment">//undefined</span>
+alert (varType( <span class="hljs-number">100</span> )); <span class="hljs-comment">//number</span>
+alert (varType({})); <span class="hljs-comment">//Object</span>
+alert (varType([])); <span class="hljs-comment">//Array</span>
+alert (varType(<span class="hljs-regexp">/ /</span>)); <span class="hljs-comment">//RegExp</span>
+alert (varType( <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span> ())); <span class="hljs-comment">//Date</span>
+alert (varType( <span class="hljs-built_in">Date</span> )); <span class="hljs-comment">//function</span>
+alert (varType( <span class="hljs-built_in">Object</span> )); <span class="hljs-comment">//function</span>
+alert (varType( <span class="hljs-built_in">RegExp</span> )); <span class="hljs-comment">//function</span>
+<span class="hljs-comment">//&#x5BF9;&#x4E8E;DOM&#x5BF9;&#x8C61;&#xFF0C;&#x5404;&#x6D4F;&#x89C8;&#x5668;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x4E0D;&#x540C;&#x503C;</span>
+alert (varType( <span class="hljs-built_in">window</span> )); <span class="hljs-comment">//IE:HTMLWindow2 FF:Window</span>
+alert (varType( <span class="hljs-built_in">document</span> )); <span class="hljs-comment">//IE:HTMLDocument FF:HTMLDocument</span>
+alert (varType( <span class="hljs-built_in">document</span> .body)); <span class="hljs-comment">//IE:HTMLBody FF:HTMLBodyElement</span>
+alert (varType( Option )); <span class="hljs-comment">//IE:Object FF:function</span>
+alert (varType( Image )); <span class="hljs-comment">//IE:Object FF:function</span>
+alert (varType( navigator )); <span class="hljs-comment">//IE:DispHTMLNavigator FF:Navigator</span>
+<span class="hljs-comment">//&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x53EA;&#x9002;&#x7528;&#x4E8E;IE&#xFF0C;&#x5176;&#x4ED6;&#x5185;&#x6838;&#x6D4F;&#x89C8;&#x5668;&#x4E0D;&#x652F;&#x6301;</span>
+alert (varType( ActiveXObject )); <span class="hljs-comment">//IE:function</span>
+alert (varType( Enumerator )); <span class="hljs-comment">//IE:function</span>
+alert (varType( <span class="hljs-keyword">new</span> ActiveXObject ( <span class="hljs-string">&quot;Scripting.Dictionary&quot;</span> ))); <span class="hljs-comment">//IE:Dictionary</span>
+alert (varType( <span class="hljs-keyword">new</span> Enumerator ())); <span class="hljs-comment">//IE:Enumerator</span>
+</code></pre>
+<h1 id="&#x600E;&#x6837;&#x5B9E;&#x73B0;&#x5BF9;&#x8C61;&#x7684;&#x62F7;&#x8D1D;&#xFF1F;&#xFF08;es5&#xFF09;"><a name="&#x600E;&#x6837;&#x5B9E;&#x73B0;&#x5BF9;&#x8C61;&#x7684;&#x62F7;&#x8D1D;&#xFF1F;&#xFF08;es5&#xFF09;" class="anchor-navigation-ex-anchor" href="#&#x600E;&#x6837;&#x5B9E;&#x73B0;&#x5BF9;&#x8C61;&#x7684;&#x62F7;&#x8D1D;&#xFF1F;&#xFF08;es5&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>17. &#x600E;&#x6837;&#x5B9E;&#x73B0;&#x5BF9;&#x8C61;&#x7684;&#x62F7;&#x8D1D;&#xFF1F;&#xFF08;ES5&#xFF09;</h1>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> cloneObj = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">obj</span>) </span>{  
+    <span class="hljs-keyword">var</span> newObj = {};  
+    <span class="hljs-keyword">if</span> (obj <span class="hljs-keyword">instanceof</span> <span class="hljs-built_in">Array</span>) {  
+        newObj = [];  
+    }  
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> key <span class="hljs-keyword">in</span> obj) {  
+        <span class="hljs-keyword">var</span> val = obj[key];  
+        <span class="hljs-comment">//newObj[key] = typeof val === &apos;object&apos; ? arguments.callee(val) : val; //arguments.callee &#x5728;&#x54EA;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x4E2D;&#x8FD0;&#x884C;&#xFF0C;&#x5B83;&#x5C31;&#x4EE3;&#x8868;&#x54EA;&#x4E2A;&#x51FD;&#x6570;, &#x4E00;&#x822C;&#x7528;&#x5728;&#x533F;&#x540D;&#x51FD;&#x6570;&#x4E2D;&#x3002;  </span>
+        newObj[key] = <span class="hljs-keyword">typeof</span> val === <span class="hljs-string">&apos;object&apos;</span> ? cloneObj(val): val;  
+    }  
+    <span class="hljs-keyword">return</span> newObj;  
+};
+</code></pre>
+<h1 id="&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;ajax&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;"><a name="&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;ajax&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;ajax&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>18. &#x7B80;&#x8FF0;&#x4E00;&#x4E0B;ajax&#x8BF7;&#x6C42;&#x8FC7;&#x7A0B;</h1>
+<h1 id="&#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x6709;&#x8DE8;&#x57DF;&#xFF1F;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x7684;&#xFF1F;&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x3002;"><a name="&#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x6709;&#x8DE8;&#x57DF;&#xFF1F;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x7684;&#xFF1F;&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x3002;" class="anchor-navigation-ex-anchor" href="#&#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x6709;&#x8DE8;&#x57DF;&#xFF1F;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x7684;&#xFF1F;&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x3002;"><i class="fa fa-link" aria-hidden="true"></i></a>19. &#x4E3A;&#x4EC0;&#x4E48;&#x4F1A;&#x6709;&#x8DE8;&#x57DF;&#xFF1F;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x7684;&#xFF1F;&#x7B80;&#x8FF0;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x3002;</h1>
+<ul>
+<li>nginx&#x53CD;&#x5411;&#x4EE3;&#x7406;</li>
+<li>webpack</li>
+</ul>
+<h1 id="js&#x7684;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x54EA;&#x4E9B;&#xFF1F;"><a name="js&#x7684;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x54EA;&#x4E9B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#js&#x7684;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x54EA;&#x4E9B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>20. js&#x7684;&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x6709;&#x54EA;&#x4E9B;&#xFF1F;</h1>
+<ul>
+<li>string </li>
+<li>boolean </li>
+<li>number </li>
+<li>null </li>
+<li>undefined</li>
+</ul>
+<h1 id="&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;"><a name="&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;" class="anchor-navigation-ex-anchor" href="#&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;"><i class="fa fa-link" aria-hidden="true"></i></a>21. &#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;(&#x4E00;&#x79CD;&#x6570;&#x636E;&#x7C7B;&#x578B;)&#x3002;</h1>
+<pre><code class="lang-javascript"><span class="hljs-keyword">typeof</span> str != <span class="hljs-string">&quot;string&quot;</span> &amp;&amp; str.constructor != <span class="hljs-built_in">String</span>
+</code></pre>
+<h1 id="&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x6709;&#x5426;&#x6B63;&#x786E;&#xFF1F;&#x5982;&#x4E0D;&#x6B63;&#x786E;&#xFF0C;&#x8BF7;&#x6539;&#x6B63;"><a name="&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x6709;&#x5426;&#x6B63;&#x786E;&#xFF1F;&#x5982;&#x4E0D;&#x6B63;&#x786E;&#xFF0C;&#x8BF7;&#x6539;&#x6B63;" class="anchor-navigation-ex-anchor" href="#&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x6709;&#x5426;&#x6B63;&#x786E;&#xFF1F;&#x5982;&#x4E0D;&#x6B63;&#x786E;&#xFF0C;&#x8BF7;&#x6539;&#x6B63;"><i class="fa fa-link" aria-hidden="true"></i></a>22. &#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x6709;&#x5426;&#x6B63;&#x786E;&#xFF1F;&#x5982;&#x4E0D;&#x6B63;&#x786E;&#xFF0C;&#x8BF7;&#x6539;&#x6B63;</h1>
+<pre><code class="lang-javascript">f = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;}
+g = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{<span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;}
+(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">if</span>(g()&amp;&amp;[]==![]){
+    f = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">f</span>(<span class="hljs-params"></span>)</span>{<span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;} 
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">g</span>(<span class="hljs-params"></span>)</span>{<span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;} } 
+})(); 
+<span class="hljs-built_in">console</span>.log(f());<span class="hljs-comment">//true or false?</span>
+</code></pre>
+<h1 id="typeof&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x7ED3;&#x679C;&#xFF1F;"><a name="typeof&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x7ED3;&#x679C;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#typeof&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x7ED3;&#x679C;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>23. typeof&#x6709;&#x54EA;&#x51E0;&#x79CD;&#x7ED3;&#x679C;&#xFF1F;</h1>
+<p>6&#x79CD;&#x7ED3;&#x679C;&#xFF1A;</p>
+<pre><code class="lang-javascript">string || number|| <span class="hljs-literal">undefined</span> || boolean || <span class="hljs-function"><span class="hljs-keyword">function</span>|| <span class="hljs-title">objec</span>
+</span></code></pre>
+<p><img src="../images/16.png" alt=""></p>
+<h1 id="&#x8BF7;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x6570;&#x7EC4;&#x53BB;&#x91CD;"><a name="&#x8BF7;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x6570;&#x7EC4;&#x53BB;&#x91CD;" class="anchor-navigation-ex-anchor" href="#&#x8BF7;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x6570;&#x7EC4;&#x53BB;&#x91CD;"><i class="fa fa-link" aria-hidden="true"></i></a>24. &#x8BF7;&#x7528;&#x4E09;&#x79CD;&#x65B9;&#x6CD5;&#x5B9E;&#x73B0;&#x6570;&#x7EC4;&#x53BB;&#x91CD;</h1>
+<ol>
+<li>&#x4F7F;&#x7528;&#x7A7A;&#x5BF9;&#x8C61;&#xFF0C;&#x5C06;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x4F5C;&#x4E3A;&#x5BF9;&#x8C61;key&#x503C;&#xFF0C;&#x51FA;&#x73B0;&#x6B21;&#x6570;&#x4F5C;&#x4E3A;value&#x503C;&#xFF0C;&#x5FAA;&#x73AF;&#x6570;&#x7EC4;</li>
+<li>&#x4F7F;&#x7528;ES6&#x7684;Set&#x7C7B;&#x578B;&#xFF0C;[...new Set([1,2,3,2,3,1,4,5])];//[1,2,3,4,5];</li>
+<li>&#x666E;&#x901A;&#x7684;for&#x5FAA;&#x73AF;&#xFF0C;&#x5FAA;&#x73AF;&#x4E4B;&#x524D;&#x6392;&#x5E8F;&#xFF0C;&#x4F1A;&#x9AD8;&#x6548;&#x4E00;&#x70B9;&#x70B9;</li>
+</ol>
+<h1 id="&#x68C0;&#x6D4B;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x6709;prop&#x5C5E;&#x6027;&#xFF0C;&#x6CA1;&#x6709;&#x5C31;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;true&#xFF0C;&#x5E76;&#x5220;&#x6389;&#x8BE5;&#x5C5E;&#x6027;"><a name="&#x68C0;&#x6D4B;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x6709;prop&#x5C5E;&#x6027;&#xFF0C;&#x6CA1;&#x6709;&#x5C31;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;true&#xFF0C;&#x5E76;&#x5220;&#x6389;&#x8BE5;&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x68C0;&#x6D4B;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x6709;prop&#x5C5E;&#x6027;&#xFF0C;&#x6CA1;&#x6709;&#x5C31;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;true&#xFF0C;&#x5E76;&#x5220;&#x6389;&#x8BE5;&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>25. &#x68C0;&#x6D4B;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x6709;prop&#x5C5E;&#x6027;&#xFF0C;&#x6CA1;&#x6709;&#x5C31;&#x629B;&#x51FA;&#x5F02;&#x5E38;&#xFF0C;&#x6709;&#x7684;&#x8BDD;&#x8FD4;&#x56DE;true&#xFF0C;&#x5E76;&#x5220;&#x6389;&#x8BE5;&#x5C5E;&#x6027;</h1>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> o = {
+      <span class="hljs-attr">age</span>:<span class="hljs-number">10</span>,
+      <span class="hljs-attr">prop</span>:<span class="hljs-string">&quot;prop&quot;</span>
+    }
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">hasProperty</span>(<span class="hljs-params">pro,obj</span>)</span>{
+      <span class="hljs-keyword">if</span>(obj.hasOwnProperty(pro)){
+        <span class="hljs-keyword">delete</span> obj.prop;
+      }<span class="hljs-keyword">else</span>{
+        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&quot;&#x6CA1;&#x6709;&#x8BE5;&#x5C5E;&#x6027;&quot;</span>);
+      }
+    }
+    hasProperty(<span class="hljs-string">&quot;prop&quot;</span>,o)
+    <span class="hljs-built_in">console</span>.log(o)
+</code></pre>
+<h1 id="href&#x548C;src&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><a name="href&#x548C;src&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#href&#x548C;src&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>26. href&#x548C;src&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;</h1>
+<ul>
+<li>href&#x662F;&#x6587;&#x6863;&#x4E4B;&#x95F4;&#x7684;&#x8DF3;&#x8F6C;</li>
+<li>src&#x662F;&#x8D44;&#x6E90;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x5C06;&#x6307;&#x5B9A;&#x8D44;&#x6E90;&#x63D2;&#x5165;&#x5230;src&#x6240;&#x5728;&#x7684;&#x4F4D;&#x7F6E;</li>
+</ul>
+<h1 id="&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x76F8;&#x4E92;&#x4F9D;&#x8D56;&#x7684;&#x95EE;&#x9898;"><a name="&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x76F8;&#x4E92;&#x4F9D;&#x8D56;&#x7684;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x76F8;&#x4E92;&#x4F9D;&#x8D56;&#x7684;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>27. &#x600E;&#x4E48;&#x89E3;&#x51B3;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x76F8;&#x4E92;&#x4F9D;&#x8D56;&#x7684;&#x95EE;&#x9898;</h1>
+<ul>
+<li>1&#x3001;&#x628A;ajax&#x8BF7;&#x6C42;&#x6539;&#x6210;&#x540C;&#x6B65;&#x65B9;&#x5F0F;async:false</li>
+<li>2&#x3001;&#x5185;&#x5D4C;&#x56DE;&#x8C03;&#x65B9;&#x6CD5;&#x6BD4;&#x5982;&#x5728;ajax&#x8BF7;&#x6C42;A&#x91CC;&#x9762;&#x7684;success&#x65B9;&#x6CD5;&#x91CC;&#x518D;&#x8C03;ajax&#x8BF7;&#x6C42;B </li>
+<li>3&#x3001;&#x7528;jquery1.8&#x7248;&#x672C;&#x4E4B;&#x540E;&#x63A8;&#x51FA;&#x7684;promise&#x89E3;&#x51B3;&#xFF0C;&#x901A;&#x8FC7;then&#x65B9;&#x6CD5;&#x5C06;&#x591A;&#x4E2A;&#x72EC;&#x7ACB;&#x7684;ajax&#x8BF7;&#x6C42;&#x94FE;&#x5F0F;&#x64CD;&#x4F5C;&#x3002;</li>
+<li>4&#x3001;vue&#x4E2D;&#x7684;&#x8BDD;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;axios&#x3002;</li>
+</ul>
+<pre><code class="lang-javascript"> <span class="hljs-keyword">this</span>.$axios.post(<span class="hljs-string">&quot;b&#x63A5;&#x53E3;&quot;</span>)
+      .then(<span class="hljs-function">(<span class="hljs-params">response</span>) =&gt;</span> {    
+          <span class="hljs-built_in">console</span>.log(response)                       
+      }).then(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">this</span>.$axios.post(<span class="hljs-string">&quot;a&#x63A5;&#x53E3;&quot;</span>)
+        .then(<span class="hljs-function">(<span class="hljs-params">response</span>) =&gt;</span> {                                            
+          <span class="hljs-built_in">console</span>.log(response)   
+        })
+      .catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+        <span class="hljs-built_in">console</span>.log(err)
+      });
+})
+</code></pre>
+<hr>
+<h1 id="es6-&#x76F8;&#x5173;"><a name="es6-&#x76F8;&#x5173;" class="anchor-navigation-ex-anchor" href="#es6-&#x76F8;&#x5173;"><i class="fa fa-link" aria-hidden="true"></i></a>28. ES6 &#x76F8;&#x5173;</h1>
+<h2 id="&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x548C;&#x666E;&#x901A;&#x51FD;&#x6570;&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><a name="&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x548C;&#x666E;&#x901A;&#x51FD;&#x6570;&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x548C;&#x666E;&#x901A;&#x51FD;&#x6570;&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>28.1. &#x7BAD;&#x5934;&#x51FD;&#x6570;&#x548C;&#x666E;&#x901A;&#x51FD;&#x6570;&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;</h2>
+<ol>
+<li>&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x6CA1;&#x6709;&#x7ED1;&#x5B9A;this&#x6307;&#x9488;&#xFF0C;&#x666E;&#x901A;&#x51FD;&#x6570;&#x7684;this&#x6307;&#x5411;&#x8C03;&#x7528;&#x51FD;&#x6570;&#x7684;&#x5BF9;&#x8C61;&#xFF08;&#x533F;&#x540D;&#x51FD;&#x6570;&#x7684;this&#x90FD;&#x6307;&#x5411;&#x5168;&#x5C40;window&#x5BF9;&#x8C61;&#xFF09;;</li>
+<li>&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x6CA1;&#x6709;&#x6784;&#x9020;&#x5668;&#x3002;</li>
+<li>&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x6CA1;&#x6709;&#x7ED1;&#x5B9A;arguments&#x3002;</li>
+</ol>
+<h2 id="&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;"><a name="&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;" class="anchor-navigation-ex-anchor" href="#&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;"><i class="fa fa-link" aria-hidden="true"></i></a>28.2. &#x7BAD;&#x5934;&#x51FD;&#x6570;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;</h2>
+<ul>
+<li><p>&#x5F53;&#x8981;&#x6C42;&#x52A8;&#x6001;&#x4E0A;&#x4E0B;&#x6587;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C31;&#x4E0D;&#x80FD;&#x591F;&#x4F7F;&#x7528;&#x7BAD;&#x5934;&#x51FD;&#x6570;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;this&#x7684;&#x56FA;&#x5B9A;&#x5316;</p>
+</li>
+<li><p>&#x5728;&#x4F7F;&#x7528;=&gt;&#x5B9A;&#x4E49;&#x51FD;&#x6570;&#x7684;&#x65F6;&#x5019;&#xFF0C;this&#x7684;&#x6307;&#x5411;&#x662F;&#x5B9A;&#x4E49;&#x65F6;&#x6240;&#x5728;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x4F7F;&#x7528;&#x65F6;&#x6240;&#x5728;&#x7684;&#x5BF9;&#x8C61;&#xFF1B;</p>
+</li>
+<li>&#x4E0D;&#x80FD;&#x591F;&#x7528;&#x4F5C;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x8FD9;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x4E0D;&#x80FD;&#x591F;&#x4F7F;&#x7528;new&#x547D;&#x4EE4;&#xFF0C;&#x5426;&#x5219;&#x5C31;&#x4F1A;&#x629B;&#x51FA;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#xFF1B;</li>
+<li>&#x4E0D;&#x80FD;&#x591F;&#x4F7F;&#x7528;arguments&#x5BF9;&#x8C61;&#xFF1B;</li>
+<li>&#x4E0D;&#x80FD;&#x4F7F;&#x7528;yield&#x547D;&#x4EE4;&#xFF1B;</li>
+</ul>
+<p>&#x770B;&#x4E0B;&#x4E0B;&#x9762;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x5728;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#x4E2D;, &#x6211;&#x4EEC;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x7BAD;&#x5934;&#x51FD;&#x6570;</span>
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span> </span>{
+  <span class="hljs-keyword">constructor</span>() {
+    <span class="hljs-keyword">this</span>.type = <span class="hljs-string">&quot;animal&quot;</span>;
+  }
+  say(val) {
+    setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>);   <span class="hljs-comment">//window</span>
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.type + <span class="hljs-string">&quot; says &quot;</span> + val);
+    }, <span class="hljs-number">1000</span>)
+  }
+}
+<span class="hljs-keyword">var</span> animal = <span class="hljs-keyword">new</span> Animal();
+animal.say(<span class="hljs-string">&quot;hi&quot;</span>);   <span class="hljs-comment">//undefined says hi</span>
+</code></pre>
+<blockquote>
+<p>&#x300A;JavaScript&#x9AD8;&#x7EA7;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x300B;&#x7B2C;&#x4E8C;&#x7248;&#x4E2D;&#xFF0C;&#x5199;&#x5230;&#xFF1A;&#x201C;&#x8D85;&#x65F6;&#x8C03;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x90FD;&#x662F;&#x5728;&#x5168;&#x5C40;&#x4F5C;&#x7528;&#x57DF;&#x4E2D;&#x6267;&#x884C;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x51FD;&#x6570;&#x4E2D;this&#x7684;&#x503C;&#x5728;&#x975E;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0B;&#x6307;&#x5411;window&#x5BF9;&#x8C61;&#xFF0C;&#x5728;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0B;&#x662F;undefined&#x201D;&#x3002;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x5728;&#x975E;&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;setTimeout&#x4E2D;&#x6240;&#x6267;&#x884C;&#x51FD;&#x6570;&#x4E2D;&#x7684;this&#xFF0C;&#x6C38;&#x8FDC;&#x6307;&#x5411;window&#xFF01;&#xFF01;</p>
+</blockquote>
+<p>&#x628A;&#x4E0A;&#x9762;&#x7684;&#x4F8B;&#x5B50;&#x6539;&#x6210;&#x4F7F;&#x7528;&#x7BAD;&#x5934;&#x51FD;&#x6570;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Animal</span> </span>{
+  <span class="hljs-keyword">constructor</span>() {
+    <span class="hljs-keyword">this</span>.type = <span class="hljs-string">&quot;animal&quot;</span>;
+  }
+  say(val) {
+    setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>);  <span class="hljs-comment">//Animal</span>
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>.type + <span class="hljs-string">&apos; says &apos;</span> + val);
+    }, <span class="hljs-number">1000</span>)
+  }
+}
+<span class="hljs-keyword">var</span> animal = <span class="hljs-keyword">new</span> Animal();
+animal.say(<span class="hljs-string">&quot;hi&quot;</span>);  <span class="hljs-comment">//animal says hi</span>
+</code></pre>
+<h2 id="&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x7279;&#x70B9;"><a name="&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x7279;&#x70B9;" class="anchor-navigation-ex-anchor" href="#&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x7279;&#x70B9;"><i class="fa fa-link" aria-hidden="true"></i></a>28.3. &#x7BAD;&#x5934;&#x51FD;&#x6570;&#x7279;&#x70B9;</h2>
+<ul>
+<li>&#x4E0D;&#x5728;&#x9700;&#x8981;&#x4F7F;&#x7528; <code>function</code> &#x5173;&#x952E;&#x5B57;&#x6765;&#x521B;&#x5EFA;&#x51FD;&#x6570;</li>
+<li>&#x7701;&#x7565;&#x4E86; <code>return</code> &#x5173;&#x952E;&#x5B57;</li>
+<li>&#x7EE7;&#x627F;&#x5F53;&#x524D;&#x4E0A;&#x4E0B;&#x6587;&#x7684; this &#x5173;&#x952E;&#x5B57;</li>
+</ul>
+<hr>
+<h1 id="jquery"><a name="jquery" class="anchor-navigation-ex-anchor" href="#jquery"><i class="fa fa-link" aria-hidden="true"></i></a>29. jQuery</h1>
+<h2 id="windowonload&#x548C;jquery&#x7684;ready&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><a name="windowonload&#x548C;jquery&#x7684;ready&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#windowonload&#x548C;jquery&#x7684;ready&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>29.1. window.onload&#x548C;jQuery&#x7684;ready&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>window.onLoad()</th>
+<th>$(document).ready()</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x52A0;&#x8F7D;&#x65F6;&#x673A;</td>
+<td>&#x5FC5;&#x987B;&#x7B49;&#x5F85;&#x7F51;&#x9875;&#x5168;&#x90E8;&#x52A0;&#x8F7D;&#x5B8C;&#x6BD5;&#xFF08;&#x5305;&#x62EC;&#x56FE;&#x7247;&#x7B49;&#xFF09;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x6267;&#x884C;JS&#x4EE3;&#x7801;</td>
+<td>&#x53EA;&#x9700;&#x8981;&#x7B49;&#x5F85;&#x7F51;&#x9875;&#x4E2D;&#x7684;DOM&#x7ED3;&#x6784;&#x52A0;&#x8F7D;&#x5B8C;&#x6BD5;&#xFF0C;&#x5C31;&#x80FD;&#x6267;&#x884C;JS&#x4EE3;&#x7801;</td>
+</tr>
+<tr>
+<td>&#x6267;&#x884C;&#x6B21;&#x6570;</td>
+<td>&#x53EA;&#x80FD;&#x6267;&#x884C;&#x4E00;&#x6B21;&#xFF0C;&#x5982;&#x679C;&#x7B2C;&#x4E8C;&#x6B21;&#xFF0C;&#x90A3;&#x4E48;&#x7B2C;&#x4E00;&#x6B21;&#x7684;&#x6267;&#x884C;&#x4F1A;&#x88AB;&#x8986;&#x76D6;</td>
+<td>&#x53EF;&#x4EE5;&#x6267;&#x884C;&#x591A;&#x6B21;&#xFF0C;&#x7B2C;N&#x6B21;&#x90FD;&#x4E0D;&#x4F1A;&#x88AB;&#x4E0A;&#x4E00;&#x6B21;&#x8986;&#x76D6;</td>
+</tr>
+<tr>
+<td>&#x4E3E;&#x4F8B;</td>
+<td>&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x65E0;&#x6CD5;&#x6B63;&#x786E;&#x6267;&#x884C;&#xFF1A;<code>window.onload = function()  { alert(&#x201C;text1&#x201D;);}; window.onload = function() { alert(&#x201C;text2&#x201D;);};</code>&#x7ED3;&#x679C;&#x53EA;&#x8F93;&#x51FA;&#x7B2C;&#x4E8C;&#x4E2A;</td>
+<td>&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;&#x6B63;&#x786E;&#x6267;&#x884C;&#xFF1A;<code>$(document).ready(function(){alert(&#x201C;Hello&#x201D;)}); $(document).ready(function() { alert(&#x201C;Hello&#x201D;)});</code> &#x7ED3;&#x679C;&#x4E24;&#x6B21;&#x90FD;&#x8F93;&#x51FA;</td>
+</tr>
+<tr>
+<td>&#x7B80;&#x5199;&#x65B9;&#x6848;</td>
+<td>&#x65E0;</td>
+<td><code>$(function () {})</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="jquery-&#x6709;&#x54EA;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#xFF1F;"><a name="jquery-&#x6709;&#x54EA;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#jquery-&#x6709;&#x54EA;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>29.2. jQuery &#x6709;&#x54EA;&#x4E9B;&#x9009;&#x62E9;&#x5668;&#xFF1F;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x9009;&#x62E9;&#x5668;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>$(&quot;p.intro&quot;)</code></td>
+<td>&#x9009;&#x53D6; <code>class</code> &#x4E3A; <code>intro</code> &#x7684; <code>&lt;p&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;p:first&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x7B2C;&#x4E00;&#x4E2A; <code>&lt;p&gt;</code>&#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;ul li:first&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x7B2C;&#x4E00;&#x4E2A; <code>&lt;ul&gt;</code> &#x5143;&#x7D20;&#x7684;&#x7B2C;&#x4E00;&#x4E2A; <code>&lt;li&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;ul li:first-child&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x6BCF;&#x4E2A; <code>&lt;ul&gt;</code> &#x5143;&#x7D20;&#x7684;&#x7B2C;&#x4E00;&#x4E2A; <code>&lt;li&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;a[target=&apos;_blank&apos;]&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x6240;&#x6709; <code>target</code> &#x5C5E;&#x6027;&#x503C;&#x7B49;&#x4E8E; <code>&quot;_blank&quot;</code> &#x7684; <code>&lt;a&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;a[target!=&apos;_blank&apos;]&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x6240;&#x6709; <code>target</code> &#x5C5E;&#x6027;&#x503C;&#x4E0D;&#x7B49;&#x4E8E; <code>&quot;_blank&quot;</code> &#x7684; <code>&lt;a&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;:button&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x6240;&#x6709; <code>type=&quot;button&quot;</code> &#x7684; <code>&lt;input&gt;</code> &#x5143;&#x7D20; &#x548C; <code>&lt;button&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;tr:even&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x5076;&#x6570;&#x4F4D;&#x7F6E;&#x7684; <code>&lt;tr&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;tr:odd&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x5947;&#x6570;&#x4F4D;&#x7F6E;&#x7684; <code>&lt;tr&gt;</code> &#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(&quot;*&quot;)</code></td>
+<td>&#x9009;&#x53D6;&#x6240;&#x6709;&#x5143;&#x7D20;</td>
+</tr>
+<tr>
+<td><code>$(this)</code></td>
+<td>&#x9009;&#x53D6;&#x5F53;&#x524D;&#x7684;&#x5143;&#x7D20;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="attr&#x548C;prop&#x7684;&#x533A;&#x522B;&#xFF1F;"><a name="attr&#x548C;prop&#x7684;&#x533A;&#x522B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#attr&#x548C;prop&#x7684;&#x533A;&#x522B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>29.3. attr()&#x548C;prop()&#x7684;&#x533A;&#x522B;&#xFF1F;</h2>
+<ul>
+<li>&#x5BF9;&#x4E8E;HTML&#x5143;&#x7D20;&#x672C;&#x8EAB;&#x5C31;&#x5E26;&#x6709;&#x7684;&#x56FA;&#x6709;&#x5C5E;&#x6027;&#xFF0C;&#x5728;&#x5904;&#x7406;&#x65F6;&#xFF0C;&#x4F7F;&#x7528;prop&#x65B9;&#x6CD5;&#x3002;</li>
+<li>&#x5BF9;&#x4E8E;HTML&#x5143;&#x7D20;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x81EA;&#x5B9A;&#x4E49;&#x7684;DOM&#x5C5E;&#x6027;&#xFF0C;&#x5728;&#x5904;&#x7406;&#x65F6;&#xFF0C;&#x4F7F;&#x7528;attr&#x65B9;&#x6CD5;&#x3002;</li>
+</ul>
+<p>&#x5177;&#x6709; true &#x548C; false &#x4E24;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x5982; checked, selected &#x6216;&#x8005; disabled &#x4F7F;&#x7528;prop()
+&#x5178;&#x578B;&#x5E94;&#x7528;&#xFF1A;&#x7528;checkbox&#x7C7B;&#x578B;&#x5B9E;&#x73B0;radio&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x6709;&#x5174;&#x8DA3;&#x7684;&#x8BDD;&#x53EF;&#x4EE5;&#x5B9E;&#x9A8C;&#x4E00;&#x628A;</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;checkBox&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> /&gt;</span>1
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> /&gt;</span>2
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> /&gt;</span>3
+    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;checkbox&quot;</span> /&gt;</span>4
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/javascript&quot;</span>&gt;</span><span class="javascript">
+    $(<span class="hljs-string">&quot;:checkbox&quot;</span>).click(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-keyword">if</span>($(<span class="hljs-keyword">this</span>).prop(<span class="hljs-string">&quot;checked&quot;</span>)!=<span class="hljs-literal">undefined</span>) {
+            $(<span class="hljs-keyword">this</span>).prop(<span class="hljs-string">&quot;checked&quot;</span>,<span class="hljs-literal">true</span>).siblings().prop(<span class="hljs-string">&quot;checked&quot;</span>,<span class="hljs-literal">false</span>);
+        }
+    })
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2 id="on&#x548C;bind&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;js&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x7684;dom&#x5143;&#x7D20;&#xFF0C;&#x7528;on&#x8FD8;&#x662F;bind&#x7ED1;&#x5B9A;&#xFF1F;"><a name="on&#x548C;bind&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;js&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x7684;dom&#x5143;&#x7D20;&#xFF0C;&#x7528;on&#x8FD8;&#x662F;bind&#x7ED1;&#x5B9A;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#on&#x548C;bind&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;js&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x7684;dom&#x5143;&#x7D20;&#xFF0C;&#x7528;on&#x8FD8;&#x662F;bind&#x7ED1;&#x5B9A;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>29.4. on&#x548C;bind&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;&#xFF1F;js&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x7684;DOM&#x5143;&#x7D20;&#xFF0C;&#x7528;on&#x8FD8;&#x662F;bind&#x7ED1;&#x5B9A;&#xFF1F;</h2>
+<ul>
+<li>bind&#x73B0;&#x5728;&#x57FA;&#x672C;&#x5DF2;&#x7ECF;&#x88AB;&#x5F03;&#x7528;&#xFF0C;&#x4E0D;&#x505A;&#x8BA8;&#x8BBA;</li>
+<li>on&#x5E38;&#x7528;&#x4E8E;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;&#xFF0C;&#x5982;&#xFF1A;<pre><code class="lang-javascript">$(el).on(<span class="hljs-string">&quot;click&quot;</span>,<span class="hljs-string">&quot;subel1,subel2&quot;</span>,<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{});
+</code></pre>
+</li>
+</ul>
+<p>&#x4E4B;&#x540E;&#x52A8;&#x6001;&#x6DFB;&#x52A0;&#x7684;el&#x7684;&#x540C;&#x7C7B;&#x578B;&#x5B50;&#x5143;&#x7D20;&#x81EA;&#x52A8;&#x88AB;&#x7ED1;&#x4E0A;&#x6B64;&#x4E8B;&#x4EF6;&#xFF01;&#xFF01;&#xFF01;</p>
+<h2 id="touch&#x548C;click&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;"><a name="touch&#x548C;click&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#touch&#x548C;click&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>29.5. touch&#x548C;click&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;</h2>
+<p>touch&#x6709;&#x5EF6;&#x8FDF;&#xFF0C;&#x7B49;&#x5F85;&#x662F;&#x5426;&#x53CC;&#x51FB;&#x4E8B;&#x4EF6;</p>
+<h1 id="js&#x5E38;&#x89C1;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;"><a name="js&#x5E38;&#x89C1;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#js&#x5E38;&#x89C1;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>30. JS&#x5E38;&#x89C1;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;</h1>
+<h2 id="key-upkey-downkey-press&#x5728;&#x4E0D;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x6709;&#x4F55;&#x4E0D;&#x540C;&#xFF1F;"><a name="key-upkey-downkey-press&#x5728;&#x4E0D;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x6709;&#x4F55;&#x4E0D;&#x540C;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#key-upkey-downkey-press&#x5728;&#x4E0D;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x6709;&#x4F55;&#x4E0D;&#x540C;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>30.1. key up,key down,key press&#x5728;&#x4E0D;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x6709;&#x4F55;&#x4E0D;&#x540C;&#xFF1F;</h2>
+<h1 id="&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;-&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;"><a name="&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;-&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;-&#x4F55;&#x65F6;&#x4F7F;&#x7528;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>31. &#x4F55;&#x65F6;&#x4F7F;&#x7528;==&#xFF1F; &#x4F55;&#x65F6;&#x4F7F;&#x7528;===&#xFF1F;</h1>
+<ul>
+<li><a href="../../../part1/1.2%20JS&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E0A;&#xFF09;.html#&#x4F55;&#x65F6;&#x4F7F;&#x7528;-&#x4F55;&#x65F6;&#x4F7F;&#x7528;">JS&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x4E0A; &gt;&gt; &#x4F55;&#x65F6;&#x4F7F;&#x7528;==&#xFF1F;&#x4F55;&#x65F6;&#x4F7F;&#x7528;===&#xFF1F;</a></li>
+</ul>
+<h1 id="js&#x4E2D;&#x6709;&#x54EA;&#x4E9B;&#x5185;&#x7F6E;&#x51FD;&#x6570;"><a name="js&#x4E2D;&#x6709;&#x54EA;&#x4E9B;&#x5185;&#x7F6E;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#js&#x4E2D;&#x6709;&#x54EA;&#x4E9B;&#x5185;&#x7F6E;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>32. JS&#x4E2D;&#x6709;&#x54EA;&#x4E9B;&#x5185;&#x7F6E;&#x51FD;&#x6570;</h1>
+<ul>
+<li><a href="http://localhost:4000/part1/1.2%20JS&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E0A;&#xFF09;.html#js&#x4E2D;&#x6709;&#x54EA;&#x4E9B;&#x5185;&#x7F6E;&#x51FD;&#x6570;" target="_blank">S&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x4E0A; &gt;&gt; </a></li>
+</ul>
+<h1 id="js&#x6309;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x533A;&#x5206;&#x53D8;&#x91CF;&#x7C7B;&#x578B;"><a name="js&#x6309;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x533A;&#x5206;&#x53D8;&#x91CF;&#x7C7B;&#x578B;" class="anchor-navigation-ex-anchor" href="#js&#x6309;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x533A;&#x5206;&#x53D8;&#x91CF;&#x7C7B;&#x578B;"><i class="fa fa-link" aria-hidden="true"></i></a>33. JS&#x6309;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x533A;&#x5206;&#x53D8;&#x91CF;&#x7C7B;&#x578B;</h1>
+<ul>
+<li><a href="http://localhost:4000/part1/1.2%20JS&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E0A;&#xFF09;.html#js&#x6309;&#x5B58;&#x50A8;&#x65B9;&#x5F0F;&#x533A;&#x5206;&#x53D8;&#x91CF;&#x7C7B;&#x578B;" target="_blank">S&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x4E0A; &gt;&gt; </a></li>
+</ul>
+<h1 id="&#x5982;&#x4F55;&#x7406;&#x89E3;json"><a name="&#x5982;&#x4F55;&#x7406;&#x89E3;json" class="anchor-navigation-ex-anchor" href="#&#x5982;&#x4F55;&#x7406;&#x89E3;json"><i class="fa fa-link" aria-hidden="true"></i></a>34. &#x5982;&#x4F55;&#x7406;&#x89E3;JSON</h1>
+<ul>
+<li><a href="http://localhost:4000/part1/1.2%20JS&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF08;&#x4E0A;&#xFF09;.html#&#x5982;&#x4F55;&#x7406;&#x89E3;json" target="_blank">S&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x4E0A; &gt;&gt; </a></li>
+</ul>
+<h1 id="&#x63A8;&#x8350;&#x9605;&#x8BFB;"><a name="&#x63A8;&#x8350;&#x9605;&#x8BFB;" class="anchor-navigation-ex-anchor" href="#&#x63A8;&#x8350;&#x9605;&#x8BFB;"><i class="fa fa-link" aria-hidden="true"></i></a>35. &#x63A8;&#x8350;&#x9605;&#x8BFB;</h1>
+<ul>
+<li><a href="https://www.kancloud.cn/digest/front-interview/86835" target="_blank">&#x524D;&#x7AEF;&#x5E38;&#x89C1;&#x9762;&#x8BD5;&#x9898;</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="js-es5编程题.html" class="navigation navigation-next navigation-unique" aria-label="Next page: JS es5 编程题">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"JS 面试题","level":"2.1.9.1","depth":3,"next":{"title":"JS es5 编程题","level":"2.1.9.2","depth":3,"path":"doc/js/面试题/js-es5编程题.md","ref":"doc/js/面试题/js-es5编程题.md","articles":[]},"previous":{"title":"第7部分 面试题","level":"2.1.9","depth":2,"ref":"","articles":[{"title":"JS 面试题","level":"2.1.9.1","depth":3,"path":"doc/js/面试题/js.md","ref":"doc/js/面试题/js.md","articles":[]},{"title":"JS es5 编程题","level":"2.1.9.2","depth":3,"path":"doc/js/面试题/js-es5编程题.md","ref":"doc/js/面试题/js-es5编程题.md","articles":[]},{"title":"JS es6 面试题","level":"2.1.9.3","depth":3,"path":"doc/js/面试题/js-es6.md","ref":"doc/js/面试题/js-es6.md","articles":[]},{"title":"正则面试题","level":"2.1.9.4","depth":3,"path":"doc/js/面试题/regExp.md","ref":"doc/js/面试题/regExp.md","articles":[]},{"title":"浏览器篇","level":"2.1.9.5","depth":3,"path":"doc/js/面试题/浏览器.md","ref":"doc/js/面试题/浏览器.md","articles":[]},{"title":"微信小程序","level":"2.1.9.6","depth":3,"path":"doc/js/面试题/微信小程序.md","ref":"doc/js/面试题/微信小程序.md","articles":[]},{"title":"算法面试题","level":"2.1.9.7","depth":3,"path":"doc/js/面试题/算法面试题.md","ref":"doc/js/面试题/算法面试题.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["highlight","sharing","fontsettings","-search","search-plus","theme-comscore","anchor-navigation-ex-toc","code","splitter","expandable-chapters","chapter-fold"],"root":".","styles":{"website":"styles/website.css"},"pluginsConfig":{"chapter-fold":{},"splitter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"anchor-navigation-ex-toc":{"associatedWithSummary":true,"float":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showLevel":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"G-Dragon","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"生活的意义在于学习","language":"zh-hans","gitbook":">=3.0.0","description":"js知识点学习整理"},"file":{"path":"doc/js/面试题/js.md","mtime":"2020-03-09T02:28:14.389Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-05T09:08:22.899Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+
