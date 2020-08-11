@@ -86,6 +86,10 @@
  - ### Flutter
  
  
+## 其他
+ - [后台用户权限管理系统实现模型](https://github.com/PandoraG/Articles/issues/82)
+ 
+ 
 ## 友情链接
  - [muwoo blog](https://github.com/muwoo/blogs)
  - [Front-End-Handbook-2019](https://github.com/FrontendMasters/front-end-handbook-2019)
