@@ -23,6 +23,7 @@
  - The Cost Of JavaScript（[中文翻译](https://v8.js.cn/blog/cost-of-javascript-2019/) | [英文原文](https://v8.dev/blog/cost-of-javascript-2019)）
  - [Javascript Start Up Performance](https://github.com/xitu/gold-miner/blob/master/TODO/javascript-start-up-performance.md) | 转载
  - [Promise为什么比setTimeout先执行？](https://github.com/PandoraG/Articles/issues/71)
+ - [this 指向问题梳理～](https://github.com/PandoraG/Articles/issues/70)
  
  
 ## TypeScript系列
