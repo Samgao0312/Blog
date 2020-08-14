@@ -24,6 +24,7 @@
  - [Javascript Start Up Performance](https://github.com/xitu/gold-miner/blob/master/TODO/javascript-start-up-performance.md) | 转载
  - [Promise为什么比setTimeout先执行？](https://github.com/PandoraG/Articles/issues/71)
  - [this 指向问题梳理～](https://github.com/PandoraG/Articles/issues/70)
+ - [JavaScript Array API 与 v8源码解析](https://github.com/PandoraG/Articles/issues/84)
  
  
 ## TypeScript系列
