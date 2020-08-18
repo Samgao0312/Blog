@@ -99,3 +99,4 @@
  - [Front-End-Handbook-2019](https://github.com/FrontendMasters/front-end-handbook-2019)
  - [Web-Developer-Roadmap - 2020](https://github.com/kamranahmedse/developer-roadmap)
  - [front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook/blob/master/contents/zh/javascript-questions.md)
+ - [springleo's blog](https://lq782655835.github.io/blogs/js/v8-array-method.html)
