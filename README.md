@@ -33,8 +33,6 @@
  - [TS 声明文件](https://github.com/PandoraG/Articles/issues/80)
  - [tsconfig.json 入门指南](https://github.com/PandoraG/Articles/issues/81)
  
- <a href="https://pandorag.github.io/typescript-study-notes/" style="display:block; background-color: blue; color: #ffffff;">TypeScript学习笔记</a>
- 
  
 ## 工程化
  - 规范
@@ -94,6 +92,10 @@
  
 ## 其他
  - [后台用户权限管理系统实现模型](https://github.com/PandoraG/Articles/issues/82)
+ 
+
+## 我的图书
+ - :green_book: [TypeScript学习笔记](https://pandorag.github.io/typescript-study-notes/)
  
  
 ## 友情链接
