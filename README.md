@@ -95,7 +95,8 @@
  
 
 ## 我的图书
- - :green_book: [TypeScript学习笔记](https://pandorag.github.io/typescript-study-notes/)
+ - :green_book: [TypeScript 学习笔记](https://pandorag.github.io/typescript-study-notes/)
+ - :blue_book: [Flutter 入门笔记](https://pandorag.github.io/flutter-notebook/)
  
  
 ## 友情链接
