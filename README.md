@@ -87,6 +87,7 @@
    4. [混合开发 远程调试文档](https://github.com/PandoraG/Articles/issues/22)
    5. [H5 Input 唤起不同类型软键盘](https://github.com/PandoraG/Articles/issues/16)
    6. [Charles安装使用](./list/Charles安装使用.md)
+   7. [如何通过 JavaScript 判断当前网页是否是在 In-App浏览器（WebView）里打开？](https://github.com/PandoraG/Articles/issues/84)
 
  - ### Flutter
  
