@@ -90,6 +90,9 @@
    7. [如何通过 JavaScript 判断当前网页是否是在 In-App浏览器（WebView）里打开？](https://github.com/PandoraG/Articles/issues/87)
 
  - ### Flutter
+
+## Server端
+ 1. [《Server 端搭建 squid 代理服务操作文档》](https://github.com/PandoraG/Articles/issues/88)
  
  
 ## 其他
