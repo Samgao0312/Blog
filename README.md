@@ -90,6 +90,7 @@
 
 - ### 其他
     1. [《Server 端搭建 squid 代理服务操作文档》](https://github.com/PandoraG/Articles/issues/88)
+    2. [Google Play自动发包功能实践](https://github.com/PandoraG/Articles/issues/90)
 
 
 
