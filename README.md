@@ -84,6 +84,9 @@
 - ### Python 系列
 - ### Go 系列
     - [《Effective go》中文版](https://learnku.com/docs/effective-go/2020)
+    - [GORM 中文文档](https://learnku.com/docs/gorm/v2)
+    - [Go简易教程](https://learnku.com/docs/the-little-go-book)
+    - [Go 编程实例 Go by Example](https://learnku.com/docs/gobyexample/2020)
 
 
 
