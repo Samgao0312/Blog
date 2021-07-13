@@ -2,7 +2,7 @@
 
 喜欢的话点 star 或 watch，不要fork!!!
  
-## 网络
+## 一、网络
  - [什么是域名?](https://github.com/PandoraG/Articles/issues/63)
  - [什么是虚拟主机（web hosting）?](https://github.com/PandoraG/Articles/issues/64)
  - [互联网是如何工作的？](https://github.com/PandoraG/Articles/issues/66)
@@ -10,7 +10,7 @@
  - [图解Http](https://masterzht.gitbooks.io/-http/content/)
 
 
-## 前端
+## 二、前端
  
 ### Css 系列
  
@@ -79,7 +79,7 @@
    - [详解react、redux、react-redux之间的关系](https://github.com/PandoraG/Articles/issues/54)
 
 
-## 后端
+## 三、后端
 
 - ### Python 系列
 - ### Go 系列
@@ -88,9 +88,12 @@
     - [Go简易教程](https://learnku.com/docs/the-little-go-book)
     - [Go 编程实例 Go by Example](https://learnku.com/docs/gobyexample/2020)
 
+- ### 其他
+    1. [《Server 端搭建 squid 代理服务操作文档》](https://github.com/PandoraG/Articles/issues/88)
 
 
-## 多端
+
+## 四、多端
 
  - ### 混合开发系列
    1. [使用 javascript 实现”添加到主屏幕“ 功能](https://github.com/PandoraG/Articles/issues/34)
@@ -103,23 +106,21 @@
 
  - ### Flutter
 
-## Server端
- 1. [《Server 端搭建 squid 代理服务操作文档》](https://github.com/PandoraG/Articles/issues/88)
  
  
-## 其他
+## 五、其他
  - [后台用户权限管理系统实现模型](https://github.com/PandoraG/Articles/issues/82)
  - [github icon](https://github.com/junhaideng/github-icons)
  - [Web Developer Roadmap 2020](https://github.com/kamranahmedse/developer-roadmap)
  
 
-## 我的图书
+## 六、我的图书
  - :green_book: [TypeScript 学习笔记](https://pandorag.github.io/typescript-study-notes/)
  - :blue_book: [Flutter 入门笔记](https://pandorag.github.io/flutter-notebook/)
  - :orange_book: [React 学习笔记](https://pandorag.github.io/react-study-notes/)
  
  
-## 友情链接
+## 七、友情链接
  - [muwoo blog](https://github.com/muwoo/blogs)
  - [Front-End-Handbook-2019](https://github.com/FrontendMasters/front-end-handbook-2019)
  - [Web-Developer-Roadmap - 2020](https://github.com/kamranahmedse/developer-roadmap)
