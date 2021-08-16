@@ -29,6 +29,7 @@
  - [Promise为什么比setTimeout先执行？](https://github.com/PandoraG/Articles/issues/71)
  - [this 指向问题梳理～](https://github.com/PandoraG/Articles/issues/70)
  - [JavaScript Array API 与 v8源码解析](https://github.com/PandoraG/Articles/issues/84)
+ - [Js读取本地文件](https://github.com/PandoraG/Blog/issues/91)
  
  
 ### TypeScript系列
