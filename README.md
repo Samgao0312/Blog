@@ -114,6 +114,7 @@
  - [后台用户权限管理系统实现模型](https://github.com/PandoraG/Articles/issues/82)
  - [github icon](https://github.com/junhaideng/github-icons)
  - [Web Developer Roadmap 2020](https://github.com/kamranahmedse/developer-roadmap)
+ - [程序员的提高之道(实操方法论) | 转载](https://github.com/PandoraG/Blog/issues/92)
  
 
 ## 六、我的图书
