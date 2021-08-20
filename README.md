@@ -1,4 +1,4 @@
-# G-Dragon 的网络日志
+# Sam.gao 的网络日志
 
 喜欢的话点 star 或 watch，不要fork!!!
  
